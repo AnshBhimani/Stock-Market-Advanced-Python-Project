@@ -1,0 +1,4 @@
+to test if the api to fetch the stock is working put get request on below 
+localhost:{port in app.py}/analyze/stockname(put %20 in replacement of space)
+eg: localhost:8000/analyze/Adani%20Ports%20And%20Special%20Economic%20Zone%20Ltd.
+eg: http://localhost:8000/analyze/Abans%20Enterprises%20Ltd
