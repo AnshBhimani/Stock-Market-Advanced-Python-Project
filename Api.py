@@ -63,7 +63,7 @@ try:
                     }
 
                     # Append the stock's data to the CSV file
-                    with open(csv_filename, mode='w', newline='', encoding='utf-8') as csv_file:
+                    with open(csv_filename, mode='a', newline='', encoding='utf-8') as csv_file:
                         fieldnames = ['Stock Code', 'Stock Name', 'Current Value', 'Change', 'Percentage Change', 'Day High', 'Day Low', 'Month High/Low', 'Market Cap', 'Industry']
                         writer = csv.DictWriter(csv_file, fieldnames=fieldnames)
                         writer.writerow(stock_data)

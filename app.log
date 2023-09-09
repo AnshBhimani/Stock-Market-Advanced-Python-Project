@@ -1,0 +1,1039 @@
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+2023-09-04 14:43:56,425 - INFO - Script started.
+2023-09-04 14:43:59,918 - INFO - Processed: 1/4487 - Stock Code: 533022
+2023-09-04 14:44:00,764 - INFO - Processed: 2/4487 - Stock Code: 532628
+2023-09-04 14:44:01,677 - INFO - Processed: 3/4487 - Stock Code: 523395
+2023-09-04 14:44:03,295 - WARNING - Stock 590116 is inactive.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 362-967-229
+2023-09-04 14:44:03,799 - INFO - Processed: 4/4487 - Stock Code: 512161
+2023-09-04 14:44:04,565 - INFO - Script started.
+2023-09-04 14:44:04,908 - INFO - Processed: 5/4487 - Stock Code: 538351
+INFO:werkzeug:127.0.0.1 - - [04/Sep/2023 14:44:05] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Sep/2023 14:44:05] "GET / HTTP/1.1" 200 -
+2023-09-04 14:44:05,546 - INFO - Processed: 6/4487 - Stock Code: 539300
+2023-09-04 14:44:06,984 - INFO - Processed: 7/4487 - Stock Code: 530499
+2023-09-04 14:44:07,136 - INFO - Processed: 1/4487 - Stock Code: 533022
+2023-09-04 14:44:07,887 - INFO - Processed: 8/4487 - Stock Code: 533292
+2023-09-04 14:44:07,895 - INFO - Processed: 2/4487 - Stock Code: 532628
+INFO:werkzeug:127.0.0.1 - - [04/Sep/2023 14:44:08] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2023-09-04 14:44:08,674 - INFO - Processed: 3/4487 - Stock Code: 523395
+2023-09-04 14:44:09,021 - WARNING - Stock 590116 is inactive.
+2023-09-04 14:44:09,021 - WARNING - Stock 531611 is inactive.
+2023-09-04 14:44:09,385 - INFO - Processed: 4/4487 - Stock Code: 512161
+INFO:werkzeug:127.0.0.1 - - [04/Sep/2023 14:44:09] "GET /analyze HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Sep/2023 14:44:09] "[33mGET /analyze/ HTTP/1.1[0m" 404 -
+2023-09-04 14:44:09,967 - INFO - Processed: 9/4487 - Stock Code: 530027
+2023-09-04 14:44:09,986 - INFO - Processed: 5/4487 - Stock Code: 538351
+2023-09-04 14:44:10,521 - INFO - Processed: 6/4487 - Stock Code: 539300
+2023-09-04 14:44:10,766 - WARNING - Stock 531866 is inactive.
+2023-09-04 14:44:10,869 - INFO - Processed: 7/4487 - Stock Code: 530499
+2023-09-04 14:44:11,348 - INFO - Processed: 8/4487 - Stock Code: 533292
+2023-09-04 14:44:11,558 - INFO - Processed: 10/4487 - Stock Code: 539096
+2023-09-04 14:44:11,571 - WARNING - Stock 531611 is inactive.
+2023-09-04 14:44:11,819 - INFO - Processed: 9/4487 - Stock Code: 530027
+2023-09-04 14:44:12,073 - WARNING - Stock 531866 is inactive.
+2023-09-04 14:44:12,396 - INFO - Processed: 10/4487 - Stock Code: 539096
+2023-09-04 14:44:12,636 - INFO - Processed: 11/4487 - Stock Code: 538812
+2023-09-04 14:44:12,778 - INFO - Processed: 11/4487 - Stock Code: 538812
+2023-09-04 14:44:13,201 - INFO - Processed: 12/4487 - Stock Code: 524412
+2023-09-04 14:44:13,235 - INFO - Processed: 12/4487 - Stock Code: 524412
+2023-09-04 14:44:13,896 - INFO - Processed: 13/4487 - Stock Code: 524348
+2023-09-04 14:44:13,896 - INFO - Processed: 13/4487 - Stock Code: 524348
+2023-09-04 14:44:14,479 - INFO - Processed: 14/4487 - Stock Code: 524208
+2023-09-04 14:44:14,547 - INFO - Processed: 14/4487 - Stock Code: 524208
+2023-09-04 14:44:15,177 - INFO - Processed: 15/4487 - Stock Code: 514274
+2023-09-04 14:44:15,260 - INFO - Processed: 15/4487 - Stock Code: 514274
+2023-09-04 14:44:15,977 - WARNING - Stock 531731 is inactive.
+2023-09-04 14:44:16,047 - WARNING - Stock 531731 is inactive.
+2023-09-04 14:44:16,500 - INFO - Processed: 16/4487 - Stock Code: 519319
+2023-09-04 14:44:16,786 - INFO - Processed: 16/4487 - Stock Code: 519319
+2023-09-04 14:44:17,196 - INFO - Processed: 17/4487 - Stock Code: 512038
+2023-09-04 14:44:17,223 - INFO - Processed: 17/4487 - Stock Code: 512038
+2023-09-04 14:44:17,772 - INFO - Processed: 18/4487 - Stock Code: 523204
+2023-09-04 14:44:17,798 - INFO - Processed: 18/4487 - Stock Code: 523204
+2023-09-04 14:44:18,415 - INFO - Processed: 19/4487 - Stock Code: 512165
+2023-09-04 14:44:18,574 - INFO - Processed: 19/4487 - Stock Code: 512165
+2023-09-04 14:44:18,953 - INFO - Processed: 20/4487 - Stock Code: 500002
+2023-09-04 14:44:19,409 - INFO - Processed: 20/4487 - Stock Code: 500002
+2023-09-04 14:44:19,572 - INFO - Processed: 21/4487 - Stock Code: 500488
+2023-09-04 14:44:19,660 - INFO - Processed: 21/4487 - Stock Code: 500488
+2023-09-04 14:44:20,201 - WARNING - Stock 505665 is inactive.
+2023-09-04 14:44:20,250 - WARNING - Stock 505665 is inactive.
+2023-09-04 14:44:20,950 - INFO - Processed: 22/4487 - Stock Code: 513119
+2023-09-04 14:44:21,043 - INFO - Processed: 22/4487 - Stock Code: 513119
+2023-09-04 14:44:21,773 - INFO - Processed: 23/4487 - Stock Code: 520123
+2023-09-04 14:44:21,777 - INFO - Processed: 23/4487 - Stock Code: 520123
+2023-09-04 14:44:22,343 - WARNING - Stock 532682 is inactive.
+2023-09-04 14:44:22,475 - WARNING - Stock 532682 is inactive.
+2023-09-04 14:44:22,922 - INFO - Processed: 24/4487 - Stock Code: 532057
+2023-09-04 14:44:23,323 - INFO - Processed: 24/4487 - Stock Code: 532057
+2023-09-04 14:44:23,695 - INFO - Processed: 25/4487 - Stock Code: 538952
+2023-09-04 14:44:23,704 - INFO - Processed: 25/4487 - Stock Code: 538952
+2023-09-04 14:44:24,261 - WARNING - Stock 532831 is inactive.
+2023-09-04 14:44:24,477 - WARNING - Stock 532831 is inactive.
+2023-09-04 14:44:24,789 - INFO - Processed: 26/4487 - Stock Code: 538935
+2023-09-04 14:44:25,104 - INFO - Processed: 26/4487 - Stock Code: 538935
+2023-09-04 14:44:25,417 - INFO - Processed: 27/4487 - Stock Code: 511756
+2023-09-04 14:44:25,509 - INFO - Processed: 27/4487 - Stock Code: 511756
+2023-09-04 14:44:26,039 - WARNING - Stock 526955 is inactive.
+2023-09-04 14:44:26,230 - WARNING - Stock 526955 is inactive.
+2023-09-04 14:44:26,687 - INFO - Processed: 28/4487 - Stock Code: 531161
+2023-09-04 14:44:26,879 - INFO - Processed: 28/4487 - Stock Code: 531161
+2023-09-04 14:44:27,335 - INFO - Processed: 29/4487 - Stock Code: 500410
+2023-09-04 14:44:27,527 - INFO - Processed: 29/4487 - Stock Code: 500410
+2023-09-04 14:44:28,095 - INFO - Processed: 30/4487 - Stock Code: 532774
+2023-09-04 14:44:28,156 - INFO - Processed: 30/4487 - Stock Code: 532774
+2023-09-04 14:44:28,603 - INFO - Processed: 31/4487 - Stock Code: 517494
+2023-09-04 14:44:28,868 - INFO - Processed: 31/4487 - Stock Code: 517494
+2023-09-04 14:44:29,095 - INFO - Processed: 32/4487 - Stock Code: 532268
+2023-09-04 14:44:29,273 - INFO - Processed: 32/4487 - Stock Code: 532268
+2023-09-04 14:44:29,548 - WARNING - Stock 531897 is inactive.
+2023-09-04 14:44:29,743 - WARNING - Stock 531897 is inactive.
+2023-09-04 14:44:30,114 - WARNING - Stock 526347 is inactive.
+2023-09-04 14:44:30,173 - WARNING - Stock 526347 is inactive.
+2023-09-04 14:44:30,597 - WARNING - Stock 530513 is inactive.
+2023-09-04 14:44:30,963 - WARNING - Stock 530513 is inactive.
+2023-09-04 14:44:31,114 - WARNING - Stock 530093 is inactive.
+2023-09-04 14:44:31,750 - INFO - Processed: 33/4487 - Stock Code: 531525
+2023-09-04 14:44:32,279 - WARNING - Stock 536492 is inactive.
+2023-09-04 14:44:33,137 - WARNING - Stock 538570 is inactive.
+2023-09-04 14:44:33,880 - INFO - Processed: 34/4487 - Stock Code: 517356
+2023-09-04 14:44:34,410 - WARNING - Stock 530901 is inactive.
+2023-09-04 14:44:35,481 - INFO - Processed: 35/4487 - Stock Code: 530043
+2023-09-04 14:44:36,384 - INFO - Processed: 36/4487 - Stock Code: 539391
+2023-09-04 14:44:37,918 - WARNING - Stock 533330 is inactive.
+2023-09-04 14:44:38,861 - INFO - Processed: 37/4487 - Stock Code: 513149
+INFO:werkzeug:127.0.0.1 - - [04/Sep/2023 14:44:39] "GET /analyze HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Sep/2023 14:44:39] "[33mGET /analyze/ HTTP/1.1[0m" 404 -
+2023-09-04 14:44:40,693 - INFO - Processed: 38/4487 - Stock Code: 524091
+2023-09-04 14:44:41,626 - INFO - Processed: 39/4487 - Stock Code: 532762
+2023-09-04 14:44:42,427 - WARNING - Stock 511706 is inactive.
+2023-09-04 14:44:43,786 - INFO - Processed: 40/4487 - Stock Code: 511359
+2023-09-04 14:44:44,498 - INFO - Processed: 41/4487 - Stock Code: 512599
+2023-09-04 14:44:45,646 - INFO - Processed: 42/4487 - Stock Code: 532921
+2023-09-04 14:44:47,029 - CRITICAL - Script interrupted by the user.
+2023-09-04 14:44:47,031 - INFO - Script ended.
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+2023-09-04 14:45:35,820 - INFO - Script started.
+2023-09-04 14:45:39,087 - INFO - Processed: 1/4487 - Stock Code: 533022
+2023-09-04 14:45:41,100 - INFO - Processed: 2/4487 - Stock Code: 532628
+2023-09-04 14:45:42,095 - INFO - Processed: 3/4487 - Stock Code: 523395
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 362-967-229
+INFO:werkzeug:127.0.0.1 - - [04/Sep/2023 14:45:43] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Sep/2023 14:45:43] "GET / HTTP/1.1" 200 -
+2023-09-04 14:45:43,196 - WARNING - Stock 590116 is inactive.
+2023-09-04 14:45:43,228 - INFO - Script started.
+2023-09-04 14:45:44,274 - INFO - Processed: 4/4487 - Stock Code: 512161
+2023-09-04 14:45:45,136 - INFO - Processed: 1/4487 - Stock Code: 533022
+2023-09-04 14:45:45,146 - INFO - Processed: 5/4487 - Stock Code: 538351
+2023-09-04 14:45:45,435 - INFO - Processed: 2/4487 - Stock Code: 532628
+2023-09-04 14:45:45,691 - INFO - Processed: 3/4487 - Stock Code: 523395
+2023-09-04 14:45:45,928 - INFO - Processed: 6/4487 - Stock Code: 539300
+2023-09-04 14:45:46,019 - WARNING - Stock 590116 is inactive.
+2023-09-04 14:45:46,268 - INFO - Processed: 4/4487 - Stock Code: 512161
+2023-09-04 14:45:46,491 - INFO - Processed: 7/4487 - Stock Code: 530499
+2023-09-04 14:45:46,551 - INFO - Processed: 5/4487 - Stock Code: 538351
+2023-09-04 14:45:46,797 - INFO - Processed: 6/4487 - Stock Code: 539300
+2023-09-04 14:45:47,051 - INFO - Processed: 8/4487 - Stock Code: 533292
+2023-09-04 14:45:47,051 - INFO - Processed: 7/4487 - Stock Code: 530499
+2023-09-04 14:45:47,282 - INFO - Processed: 8/4487 - Stock Code: 533292
+2023-09-04 14:45:47,597 - WARNING - Stock 531611 is inactive.
+INFO:werkzeug:127.0.0.1 - - [04/Sep/2023 14:45:47] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2023-09-04 14:45:47,611 - WARNING - Stock 531611 is inactive.
+2023-09-04 14:45:48,172 - INFO - Processed: 9/4487 - Stock Code: 530027
+2023-09-04 14:45:48,401 - INFO - Processed: 9/4487 - Stock Code: 530027
+2023-09-04 14:45:48,745 - WARNING - Stock 531866 is inactive.
+2023-09-04 14:45:48,818 - WARNING - Stock 531866 is inactive.
+2023-09-04 14:45:49,254 - INFO - Processed: 10/4487 - Stock Code: 539096
+2023-09-04 14:45:49,278 - INFO - Processed: 10/4487 - Stock Code: 539096
+2023-09-04 14:45:49,727 - INFO - Processed: 11/4487 - Stock Code: 538812
+2023-09-04 14:45:49,745 - INFO - Processed: 11/4487 - Stock Code: 538812
+2023-09-04 14:45:50,423 - INFO - Processed: 12/4487 - Stock Code: 524412
+2023-09-04 14:45:50,432 - INFO - Processed: 12/4487 - Stock Code: 524412
+2023-09-04 14:45:51,216 - INFO - Processed: 13/4487 - Stock Code: 524348
+2023-09-04 14:45:51,277 - INFO - Processed: 13/4487 - Stock Code: 524348
+2023-09-04 14:45:51,896 - INFO - Processed: 14/4487 - Stock Code: 524208
+2023-09-04 14:45:51,961 - INFO - Processed: 14/4487 - Stock Code: 524208
+2023-09-04 14:45:52,530 - INFO - Processed: 15/4487 - Stock Code: 514274
+2023-09-04 14:45:52,609 - INFO - Processed: 15/4487 - Stock Code: 514274
+2023-09-04 14:45:53,108 - WARNING - Stock 531731 is inactive.
+2023-09-04 14:45:53,359 - WARNING - Stock 531731 is inactive.
+2023-09-04 14:45:53,986 - INFO - Processed: 16/4487 - Stock Code: 519319
+2023-09-04 14:45:53,992 - INFO - Processed: 16/4487 - Stock Code: 519319
+2023-09-04 14:45:54,585 - INFO - Processed: 17/4487 - Stock Code: 512038
+2023-09-04 14:45:54,846 - INFO - Processed: 17/4487 - Stock Code: 512038
+2023-09-04 14:45:55,073 - INFO - Processed: 18/4487 - Stock Code: 523204
+2023-09-04 14:45:55,126 - INFO - Processed: 18/4487 - Stock Code: 523204
+2023-09-04 14:45:55,578 - INFO - Processed: 19/4487 - Stock Code: 512165
+2023-09-04 14:45:55,583 - INFO - Processed: 19/4487 - Stock Code: 512165
+2023-09-04 14:45:56,422 - INFO - Processed: 20/4487 - Stock Code: 500002
+2023-09-04 14:45:56,647 - INFO - Processed: 20/4487 - Stock Code: 500002
+2023-09-04 14:45:57,098 - INFO - Processed: 21/4487 - Stock Code: 500488
+2023-09-04 14:45:57,113 - INFO - Processed: 21/4487 - Stock Code: 500488
+2023-09-04 14:45:57,922 - WARNING - Stock 505665 is inactive.
+2023-09-04 14:45:58,010 - WARNING - Stock 505665 is inactive.
+2023-09-04 14:45:58,623 - INFO - Processed: 22/4487 - Stock Code: 513119
+2023-09-04 14:45:58,641 - INFO - Processed: 22/4487 - Stock Code: 513119
+2023-09-04 14:45:59,388 - INFO - Processed: 23/4487 - Stock Code: 520123
+2023-09-04 14:45:59,524 - INFO - Processed: 23/4487 - Stock Code: 520123
+2023-09-04 14:46:00,158 - WARNING - Stock 532682 is inactive.
+2023-09-04 14:46:00,336 - WARNING - Stock 532682 is inactive.
+2023-09-04 14:46:00,777 - INFO - Processed: 24/4487 - Stock Code: 532057
+2023-09-04 14:46:00,932 - INFO - Processed: 24/4487 - Stock Code: 532057
+2023-09-04 14:46:01,333 - INFO - Processed: 25/4487 - Stock Code: 538952
+2023-09-04 14:46:01,377 - INFO - Processed: 25/4487 - Stock Code: 538952
+2023-09-04 14:46:01,952 - WARNING - Stock 532831 is inactive.
+2023-09-04 14:46:02,215 - WARNING - Stock 532831 is inactive.
+2023-09-04 14:46:02,573 - INFO - Processed: 26/4487 - Stock Code: 538935
+2023-09-04 14:46:02,697 - INFO - Processed: 26/4487 - Stock Code: 538935
+2023-09-04 14:46:03,266 - INFO - Processed: 27/4487 - Stock Code: 511756
+2023-09-04 14:46:03,267 - INFO - Processed: 27/4487 - Stock Code: 511756
+2023-09-04 14:46:03,713 - WARNING - Stock 526955 is inactive.
+2023-09-04 14:46:03,893 - WARNING - Stock 526955 is inactive.
+INFO:werkzeug:127.0.0.1 - - [04/Sep/2023 14:46:04] "[35m[1mGET /analyze HTTP/1.1[0m" 500 -
+2023-09-04 14:46:04,358 - INFO - Processed: 28/4487 - Stock Code: 531161
+INFO:werkzeug:127.0.0.1 - - [04/Sep/2023 14:46:04] "GET /analyze?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2023-09-04 14:46:04,440 - INFO - Processed: 28/4487 - Stock Code: 531161
+INFO:werkzeug:127.0.0.1 - - [04/Sep/2023 14:46:04] "GET /analyze?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Sep/2023 14:46:05] "GET /analyze?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2023-09-04 14:46:05,073 - INFO - Processed: 29/4487 - Stock Code: 500410
+2023-09-04 14:46:05,133 - INFO - Processed: 29/4487 - Stock Code: 500410
+INFO:werkzeug:127.0.0.1 - - [04/Sep/2023 14:46:05] "[36mGET /analyze?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-09-04 14:46:05,726 - INFO - Processed: 30/4487 - Stock Code: 532774
+2023-09-04 14:46:05,906 - INFO - Processed: 30/4487 - Stock Code: 532774
+2023-09-04 14:46:06,206 - INFO - Processed: 31/4487 - Stock Code: 517494
+2023-09-04 14:46:06,213 - INFO - Processed: 31/4487 - Stock Code: 517494
+2023-09-04 14:46:06,923 - INFO - Processed: 32/4487 - Stock Code: 532268
+2023-09-04 14:46:06,942 - INFO - Processed: 32/4487 - Stock Code: 532268
+2023-09-04 14:46:07,576 - WARNING - Stock 531897 is inactive.
+2023-09-04 14:46:07,581 - WARNING - Stock 531897 is inactive.
+2023-09-04 14:46:08,281 - WARNING - Stock 526347 is inactive.
+2023-09-04 14:46:08,488 - WARNING - Stock 526347 is inactive.
+2023-09-04 14:46:08,806 - WARNING - Stock 530513 is inactive.
+2023-09-04 14:46:08,998 - WARNING - Stock 530513 is inactive.
+2023-09-04 14:46:09,444 - WARNING - Stock 530093 is inactive.
+2023-09-04 14:46:09,465 - WARNING - Stock 530093 is inactive.
+2023-09-04 14:46:09,467 - CRITICAL - Script interrupted by the user.
+2023-09-04 14:46:09,468 - INFO - Script ended.
+2023-09-04 14:46:09,507 - CRITICAL - Script interrupted by the user.
+2023-09-04 14:46:09,507 - INFO - Script ended.
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+2023-09-04 14:46:29,618 - INFO - Script started.
+2023-09-04 14:46:31,456 - INFO - Processed: 1/4487 - Stock Code: 533022
+2023-09-04 14:46:32,007 - INFO - Processed: 2/4487 - Stock Code: 532628
+2023-09-04 14:46:32,532 - INFO - Processed: 3/4487 - Stock Code: 523395
+2023-09-04 14:46:33,234 - WARNING - Stock 590116 is inactive.
+2023-09-04 14:46:33,951 - INFO - Processed: 4/4487 - Stock Code: 512161
+2023-09-04 14:46:34,366 - INFO - Processed: 5/4487 - Stock Code: 538351
+2023-09-04 14:46:34,985 - INFO - Processed: 6/4487 - Stock Code: 539300
+2023-09-04 14:46:35,602 - INFO - Processed: 7/4487 - Stock Code: 530499
+2023-09-04 14:46:35,884 - INFO - Processed: 8/4487 - Stock Code: 533292
+2023-09-04 14:46:36,230 - WARNING - Stock 531611 is inactive.
+2023-09-04 14:46:36,718 - INFO - Processed: 9/4487 - Stock Code: 530027
+2023-09-04 14:46:37,240 - WARNING - Stock 531866 is inactive.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 362-967-229
+2023-09-04 14:46:37,963 - INFO - Processed: 10/4487 - Stock Code: 539096
+2023-09-04 14:46:38,235 - INFO - Processed: 11/4487 - Stock Code: 538812
+INFO:werkzeug:127.0.0.1 - - [04/Sep/2023 14:46:38] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Sep/2023 14:46:38] "GET / HTTP/1.1" 200 -
+2023-09-04 14:46:38,513 - INFO - Script started.
+2023-09-04 14:46:38,576 - INFO - Processed: 12/4487 - Stock Code: 524412
+2023-09-04 14:46:39,022 - INFO - Processed: 13/4487 - Stock Code: 524348
+2023-09-04 14:46:39,225 - INFO - Processed: 14/4487 - Stock Code: 524208
+2023-09-04 14:46:39,426 - INFO - Processed: 15/4487 - Stock Code: 514274
+2023-09-04 14:46:39,614 - WARNING - Stock 531731 is inactive.
+2023-09-04 14:46:39,893 - INFO - Processed: 16/4487 - Stock Code: 519319
+2023-09-04 14:46:40,141 - INFO - Processed: 1/4487 - Stock Code: 533022
+INFO:werkzeug:127.0.0.1 - - [04/Sep/2023 14:46:40] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2023-09-04 14:46:40,163 - INFO - Processed: 17/4487 - Stock Code: 512038
+2023-09-04 14:46:40,340 - INFO - Processed: 2/4487 - Stock Code: 532628
+2023-09-04 14:46:40,429 - INFO - Processed: 18/4487 - Stock Code: 523204
+2023-09-04 14:46:40,563 - INFO - Processed: 3/4487 - Stock Code: 523395
+2023-09-04 14:46:40,678 - INFO - Processed: 19/4487 - Stock Code: 512165
+2023-09-04 14:46:40,869 - WARNING - Stock 590116 is inactive.
+2023-09-04 14:46:41,009 - INFO - Processed: 20/4487 - Stock Code: 500002
+2023-09-04 14:46:41,119 - INFO - Processed: 4/4487 - Stock Code: 512161
+2023-09-04 14:46:41,306 - INFO - Processed: 21/4487 - Stock Code: 500488
+2023-09-04 14:46:41,338 - INFO - Processed: 5/4487 - Stock Code: 538351
+INFO:werkzeug:127.0.0.1 - - [04/Sep/2023 14:46:41] "GET /analyze HTTP/1.1" 200 -
+2023-09-04 14:46:41,552 - INFO - Processed: 6/4487 - Stock Code: 539300
+2023-09-04 14:46:41,561 - WARNING - Stock 505665 is inactive.
+INFO:werkzeug:127.0.0.1 - - [04/Sep/2023 14:46:41] "GET /analyze/20%20Microns%20Ltd. HTTP/1.1" 200 -
+2023-09-04 14:46:41,790 - INFO - Processed: 7/4487 - Stock Code: 530499
+2023-09-04 14:46:41,821 - INFO - Processed: 22/4487 - Stock Code: 513119
+2023-09-04 14:46:42,041 - INFO - Processed: 8/4487 - Stock Code: 533292
+2023-09-04 14:46:42,114 - INFO - Processed: 23/4487 - Stock Code: 520123
+2023-09-04 14:46:42,270 - WARNING - Stock 531611 is inactive.
+2023-09-04 14:46:42,341 - WARNING - Stock 532682 is inactive.
+2023-09-04 14:46:42,473 - INFO - Processed: 9/4487 - Stock Code: 530027
+2023-09-04 14:46:42,578 - INFO - Processed: 24/4487 - Stock Code: 532057
+2023-09-04 14:46:42,678 - WARNING - Stock 531866 is inactive.
+2023-09-04 14:46:42,856 - INFO - Processed: 25/4487 - Stock Code: 538952
+2023-09-04 14:46:42,948 - INFO - Processed: 10/4487 - Stock Code: 539096
+2023-09-04 14:46:43,123 - WARNING - Stock 532831 is inactive.
+2023-09-04 14:46:43,178 - INFO - Processed: 11/4487 - Stock Code: 538812
+2023-09-04 14:46:43,395 - INFO - Processed: 26/4487 - Stock Code: 538935
+2023-09-04 14:46:43,438 - INFO - Processed: 12/4487 - Stock Code: 524412
+2023-09-04 14:46:43,637 - INFO - Processed: 27/4487 - Stock Code: 511756
+2023-09-04 14:46:43,688 - INFO - Processed: 13/4487 - Stock Code: 524348
+2023-09-04 14:46:43,936 - INFO - Processed: 14/4487 - Stock Code: 524208
+2023-09-04 14:46:43,941 - WARNING - Stock 526955 is inactive.
+2023-09-04 14:46:44,160 - INFO - Processed: 15/4487 - Stock Code: 514274
+2023-09-04 14:46:44,237 - INFO - Processed: 28/4487 - Stock Code: 531161
+2023-09-04 14:46:44,393 - WARNING - Stock 531731 is inactive.
+2023-09-04 14:46:44,494 - INFO - Processed: 29/4487 - Stock Code: 500410
+2023-09-04 14:46:44,614 - INFO - Processed: 16/4487 - Stock Code: 519319
+2023-09-04 14:46:44,802 - INFO - Processed: 30/4487 - Stock Code: 532774
+2023-09-04 14:46:44,839 - INFO - Processed: 17/4487 - Stock Code: 512038
+2023-09-04 14:46:45,139 - INFO - Processed: 31/4487 - Stock Code: 517494
+INFO:werkzeug:127.0.0.1 - - [04/Sep/2023 14:46:45] "GET /analyze/A2z%20Infra%20Engineering%20Limited HTTP/1.1" 200 -
+2023-09-04 14:46:45,150 - INFO - Processed: 18/4487 - Stock Code: 523204
+2023-09-04 14:46:45,383 - INFO - Processed: 19/4487 - Stock Code: 512165
+2023-09-04 14:46:45,395 - INFO - Processed: 32/4487 - Stock Code: 532268
+2023-09-04 14:46:45,601 - WARNING - Stock 531897 is inactive.
+2023-09-04 14:46:45,844 - INFO - Processed: 20/4487 - Stock Code: 500002
+2023-09-04 14:46:45,937 - WARNING - Stock 526347 is inactive.
+2023-09-04 14:46:46,141 - INFO - Processed: 21/4487 - Stock Code: 500488
+2023-09-04 14:46:46,210 - WARNING - Stock 530513 is inactive.
+2023-09-04 14:46:46,398 - WARNING - Stock 505665 is inactive.
+2023-09-04 14:46:46,443 - WARNING - Stock 530093 is inactive.
+2023-09-04 14:46:46,679 - INFO - Processed: 22/4487 - Stock Code: 513119
+2023-09-04 14:46:46,953 - INFO - Processed: 23/4487 - Stock Code: 520123
+2023-09-04 14:46:47,211 - WARNING - Stock 532682 is inactive.
+2023-09-04 14:46:47,440 - INFO - Processed: 33/4487 - Stock Code: 531525
+INFO:werkzeug:127.0.0.1 - - [04/Sep/2023 14:46:47] "GET /analyze/Aban%20Offshore%20Ltd. HTTP/1.1" 200 -
+2023-09-04 14:46:47,786 - INFO - Processed: 24/4487 - Stock Code: 532057
+2023-09-04 14:46:47,911 - WARNING - Stock 536492 is inactive.
+2023-09-04 14:46:48,092 - INFO - Processed: 25/4487 - Stock Code: 538952
+2023-09-04 14:46:48,354 - WARNING - Stock 532831 is inactive.
+2023-09-04 14:46:48,600 - INFO - Processed: 26/4487 - Stock Code: 538935
+2023-09-04 14:46:48,669 - WARNING - Stock 538570 is inactive.
+2023-09-04 14:46:48,891 - INFO - Processed: 27/4487 - Stock Code: 511756
+2023-09-04 14:46:49,179 - INFO - Processed: 34/4487 - Stock Code: 517356
+2023-09-04 14:46:49,213 - WARNING - Stock 526955 is inactive.
+2023-09-04 14:46:49,463 - INFO - Processed: 28/4487 - Stock Code: 531161
+2023-09-04 14:46:49,743 - INFO - Processed: 29/4487 - Stock Code: 500410
+2023-09-04 14:46:50,039 - INFO - Processed: 30/4487 - Stock Code: 532774
+2023-09-04 14:46:50,065 - WARNING - Stock 530901 is inactive.
+2023-09-04 14:46:50,317 - INFO - Processed: 31/4487 - Stock Code: 517494
+2023-09-04 14:46:50,600 - INFO - Processed: 35/4487 - Stock Code: 530043
+2023-09-04 14:46:50,631 - INFO - Processed: 32/4487 - Stock Code: 532268
+2023-09-04 14:46:50,892 - WARNING - Stock 531897 is inactive.
+2023-09-04 14:46:51,143 - WARNING - Stock 526347 is inactive.
+2023-09-04 14:46:51,211 - INFO - Processed: 36/4487 - Stock Code: 539391
+2023-09-04 14:46:51,390 - WARNING - Stock 530513 is inactive.
+2023-09-04 14:46:51,665 - WARNING - Stock 530093 is inactive.
+2023-09-04 14:46:51,724 - WARNING - Stock 533330 is inactive.
+2023-09-04 14:46:51,932 - INFO - Processed: 33/4487 - Stock Code: 531525
+2023-09-04 14:46:52,228 - WARNING - Stock 536492 is inactive.
+2023-09-04 14:46:52,310 - INFO - Processed: 37/4487 - Stock Code: 513149
+2023-09-04 14:46:52,486 - WARNING - Stock 538570 is inactive.
+2023-09-04 14:46:52,751 - INFO - Processed: 34/4487 - Stock Code: 517356
+2023-09-04 14:46:52,986 - INFO - Processed: 38/4487 - Stock Code: 524091
+2023-09-04 14:46:53,006 - WARNING - Stock 530901 is inactive.
+2023-09-04 14:46:53,257 - INFO - Processed: 35/4487 - Stock Code: 530043
+2023-09-04 14:46:53,487 - INFO - Processed: 36/4487 - Stock Code: 539391
+2023-09-04 14:46:53,577 - INFO - Processed: 39/4487 - Stock Code: 532762
+2023-09-04 14:46:53,768 - WARNING - Stock 533330 is inactive.
+INFO:werkzeug:127.0.0.1 - - [04/Sep/2023 14:46:53] "GET /analyze/A.f.%20Enterprises%20Ltd HTTP/1.1" 200 -
+2023-09-04 14:46:54,058 - INFO - Processed: 37/4487 - Stock Code: 513149
+2023-09-04 14:46:54,324 - WARNING - Stock 511706 is inactive.
+2023-09-04 14:46:54,325 - INFO - Processed: 38/4487 - Stock Code: 524091
+2023-09-04 14:46:54,612 - INFO - Processed: 39/4487 - Stock Code: 532762
+2023-09-04 14:46:54,852 - INFO - Processed: 40/4487 - Stock Code: 511359
+2023-09-04 14:46:54,885 - WARNING - Stock 511706 is inactive.
+2023-09-04 14:46:55,272 - INFO - Processed: 40/4487 - Stock Code: 511359
+2023-09-04 14:46:55,584 - INFO - Processed: 41/4487 - Stock Code: 512599
+2023-09-04 14:46:55,754 - INFO - Processed: 41/4487 - Stock Code: 512599
+2023-09-04 14:46:56,359 - INFO - Processed: 42/4487 - Stock Code: 532921
+2023-09-04 14:46:56,370 - INFO - Processed: 42/4487 - Stock Code: 532921
+2023-09-04 14:46:56,905 - INFO - Processed: 43/4487 - Stock Code: 533096
+2023-09-04 14:46:57,025 - INFO - Processed: 43/4487 - Stock Code: 533096
+2023-09-04 14:46:57,556 - INFO - Processed: 44/4487 - Stock Code: 539254
+2023-09-04 14:46:57,650 - INFO - Processed: 44/4487 - Stock Code: 539254
+2023-09-04 14:46:58,045 - WARNING - Stock 538563 is inactive.
+2023-09-04 14:46:58,090 - WARNING - Stock 538563 is inactive.
+2023-09-04 14:46:58,541 - INFO - Processed: 45/4487 - Stock Code: 526711
+2023-09-04 14:46:58,592 - INFO - Processed: 45/4487 - Stock Code: 526711
+2023-09-04 14:46:59,229 - INFO - Processed: 46/4487 - Stock Code: 523411
+2023-09-04 14:46:59,330 - INFO - Processed: 46/4487 - Stock Code: 523411
+2023-09-04 14:46:59,841 - INFO - Processed: 47/4487 - Stock Code: 538734
+2023-09-04 14:46:59,866 - INFO - Processed: 47/4487 - Stock Code: 538734
+2023-09-04 14:47:00,507 - INFO - Processed: 48/4487 - Stock Code: 507852
+2023-09-04 14:47:00,549 - INFO - Processed: 48/4487 - Stock Code: 507852
+2023-09-04 14:47:01,093 - INFO - Processed: 49/4487 - Stock Code: 519183
+2023-09-04 14:47:01,303 - INFO - Processed: 49/4487 - Stock Code: 519183
+2023-09-04 14:47:01,863 - INFO - Processed: 50/4487 - Stock Code: 539189
+2023-09-04 14:47:02,184 - INFO - Processed: 50/4487 - Stock Code: 539189
+2023-09-04 14:47:02,423 - INFO - Processed: 51/4487 - Stock Code: 538365
+2023-09-04 14:47:02,641 - INFO - Processed: 51/4487 - Stock Code: 538365
+2023-09-04 14:47:02,928 - WARNING - Stock 532727 is inactive.
+2023-09-04 14:47:03,097 - WARNING - Stock 532727 is inactive.
+2023-09-04 14:47:03,720 - INFO - Processed: 52/4487 - Stock Code: 530117
+2023-09-04 14:47:03,923 - INFO - Processed: 52/4487 - Stock Code: 530117
+2023-09-04 14:47:04,319 - INFO - Processed: 53/4487 - Stock Code: 531592
+2023-09-04 14:47:04,594 - INFO - Processed: 53/4487 - Stock Code: 531592
+2023-09-04 14:47:04,842 - WARNING - Stock 590088 is inactive.
+2023-09-04 14:47:05,130 - WARNING - Stock 590088 is inactive.
+2023-09-04 14:47:05,375 - INFO - Processed: 54/4487 - Stock Code: 532056
+2023-09-04 14:47:05,576 - INFO - Processed: 54/4487 - Stock Code: 532056
+2023-09-04 14:47:06,003 - INFO - Processed: 55/4487 - Stock Code: 514113
+2023-09-04 14:47:06,022 - INFO - Processed: 55/4487 - Stock Code: 514113
+2023-09-04 14:47:06,769 - WARNING - Stock 500057 is inactive.
+2023-09-04 14:47:06,774 - WARNING - Stock 500057 is inactive.
+2023-09-04 14:47:07,089 - INFO - Processed: 56/4487 - Stock Code: 535755
+2023-09-04 14:47:07,136 - INFO - Processed: 56/4487 - Stock Code: 535755
+2023-09-04 14:47:07,609 - INFO - Processed: 57/4487 - Stock Code: 532974
+2023-09-04 14:47:07,827 - INFO - Processed: 57/4487 - Stock Code: 532974
+2023-09-04 14:47:08,302 - WARNING - Stock 500303 is inactive.
+2023-09-04 14:47:08,558 - WARNING - Stock 500303 is inactive.
+2023-09-04 14:47:08,952 - WARNING - Stock 522150 is inactive.
+2023-09-04 14:47:09,089 - WARNING - Stock 522150 is inactive.
+INFO:werkzeug:127.0.0.1 - - [04/Sep/2023 14:47:09] "GET /analyze HTTP/1.1" 200 -
+2023-09-04 14:47:09,664 - INFO - Processed: 58/4487 - Stock Code: 513513
+INFO:werkzeug:127.0.0.1 - - [04/Sep/2023 14:47:09] "GET /analyze/20%20Microns%20Ltd. HTTP/1.1" 200 -
+2023-09-04 14:47:09,871 - INFO - Processed: 58/4487 - Stock Code: 513513
+2023-09-04 14:47:10,345 - INFO - Processed: 59/4487 - Stock Code: 521141
+2023-09-04 14:47:10,460 - INFO - Processed: 59/4487 - Stock Code: 521141
+2023-09-04 14:47:10,944 - INFO - Processed: 60/4487 - Stock Code: 539056
+2023-09-04 14:47:11,133 - INFO - Processed: 60/4487 - Stock Code: 539056
+2023-09-04 14:47:11,670 - INFO - Processed: 61/4487 - Stock Code: 530431
+2023-09-04 14:47:11,782 - INFO - Processed: 61/4487 - Stock Code: 530431
+2023-09-04 14:47:12,510 - INFO - Processed: 62/4487 - Stock Code: 523120
+2023-09-04 14:47:12,522 - INFO - Processed: 62/4487 - Stock Code: 523120
+2023-09-04 14:47:13,249 - INFO - Processed: 63/4487 - Stock Code: 517041
+2023-09-04 14:47:13,381 - INFO - Processed: 63/4487 - Stock Code: 517041
+2023-09-04 14:47:13,780 - WARNING - Stock 523031 is inactive.
+2023-09-04 14:47:14,094 - WARNING - Stock 523031 is inactive.
+2023-09-04 14:47:14,481 - INFO - Processed: 64/4487 - Stock Code: 521048
+2023-09-04 14:47:14,624 - INFO - Processed: 64/4487 - Stock Code: 521048
+2023-09-04 14:47:15,438 - INFO - Processed: 65/4487 - Stock Code: 534612
+2023-09-04 14:47:15,486 - INFO - Processed: 65/4487 - Stock Code: 534612
+2023-09-04 14:47:16,139 - INFO - Processed: 66/4487 - Stock Code: 506947
+2023-09-04 14:47:16,147 - INFO - Processed: 66/4487 - Stock Code: 506947
+2023-09-04 14:47:16,952 - WARNING - Stock 531047 is inactive.
+2023-09-04 14:47:16,974 - WARNING - Stock 531047 is inactive.
+2023-09-04 14:47:17,588 - WARNING - Stock 517552 is inactive.
+2023-09-04 14:47:17,607 - WARNING - Stock 517552 is inactive.
+2023-09-04 14:47:18,626 - INFO - Processed: 67/4487 - Stock Code: 523269
+2023-09-04 14:47:18,680 - INFO - Processed: 67/4487 - Stock Code: 523269
+2023-09-04 14:47:19,301 - WARNING - Stock 532840 is inactive.
+2023-09-04 14:47:19,325 - WARNING - Stock 532840 is inactive.
+INFO:werkzeug:127.0.0.1 - - [04/Sep/2023 14:47:19] "GET /analyze/Adhunik%20Industries%20Ltd HTTP/1.1" 200 -
+2023-09-04 14:47:19,805 - WARNING - Stock 531429 is inactive.
+2023-09-04 14:47:19,867 - WARNING - Stock 531429 is inactive.
+2023-09-04 14:47:20,518 - INFO - Processed: 68/4487 - Stock Code: 531686
+2023-09-04 14:47:20,518 - INFO - Processed: 68/4487 - Stock Code: 531686
+2023-09-04 14:47:21,250 - INFO - Processed: 69/4487 - Stock Code: 500003
+2023-09-04 14:47:21,332 - INFO - Processed: 69/4487 - Stock Code: 500003
+2023-09-04 14:47:21,803 - WARNING - Stock 530707 is inactive.
+2023-09-04 14:47:22,120 - WARNING - Stock 530707 is inactive.
+2023-09-04 14:47:22,349 - INFO - Processed: 70/4487 - Stock Code: 531921
+2023-09-04 14:47:22,408 - INFO - Processed: 70/4487 - Stock Code: 531921
+2023-09-04 14:47:22,865 - INFO - Processed: 71/4487 - Stock Code: 500463
+2023-09-04 14:47:23,130 - INFO - Processed: 71/4487 - Stock Code: 500463
+2023-09-04 14:47:23,683 - INFO - Processed: 72/4487 - Stock Code: 539042
+2023-09-04 14:47:23,767 - INFO - Processed: 72/4487 - Stock Code: 539042
+2023-09-04 14:47:24,382 - INFO - Processed: 73/4487 - Stock Code: 516020
+2023-09-04 14:47:24,419 - INFO - Processed: 73/4487 - Stock Code: 516020
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+2023-09-06 09:34:04,795 - INFO - Script started.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 362-967-229
+2023-09-06 09:34:11,697 - INFO - Script started.
+2023-09-06 09:34:13,484 - INFO - Processed: 1/4487 - Stock Code: 533022
+2023-09-06 09:34:16,159 - INFO - Processed: 1/4487 - Stock Code: 533022
+2023-09-06 09:34:16,419 - INFO - Processed: 2/4487 - Stock Code: 532628
+INFO:werkzeug:127.0.0.1 - - [06/Sep/2023 09:34:16] "GET / HTTP/1.1" 200 -
+2023-09-06 09:34:17,747 - INFO - Processed: 2/4487 - Stock Code: 532628
+INFO:werkzeug:127.0.0.1 - - [06/Sep/2023 09:34:18] "GET /analyze HTTP/1.1" 200 -
+2023-09-06 09:34:18,768 - INFO - Processed: 3/4487 - Stock Code: 523395
+2023-09-06 09:34:18,780 - INFO - Processed: 3/4487 - Stock Code: 523395
+INFO:werkzeug:127.0.0.1 - - [06/Sep/2023 09:34:19] "GET /analyze/20%20Microns%20Ltd. HTTP/1.1" 200 -
+2023-09-06 09:34:21,125 - WARNING - Stock 590116 is inactive.
+2023-09-06 09:34:22,128 - INFO - Processed: 4/4487 - Stock Code: 512161
+2023-09-06 09:34:22,794 - WARNING - Stock 590116 is inactive.
+2023-09-06 09:34:23,063 - INFO - Processed: 4/4487 - Stock Code: 512161
+2023-09-06 09:34:25,516 - INFO - Processed: 5/4487 - Stock Code: 538351
+2023-09-06 09:34:27,076 - INFO - Processed: 5/4487 - Stock Code: 538351
+2023-09-06 09:34:27,458 - INFO - Processed: 6/4487 - Stock Code: 539300
+2023-09-06 09:34:28,361 - INFO - Processed: 6/4487 - Stock Code: 539300
+INFO:werkzeug:127.0.0.1 - - [06/Sep/2023 09:34:28] "GET /analyze/Aarey%20Drugs%20&%20Pharmaceuticals%20Ltd. HTTP/1.1" 200 -
+2023-09-06 09:34:29,797 - INFO - Processed: 7/4487 - Stock Code: 530499
+2023-09-06 09:34:31,017 - INFO - Processed: 8/4487 - Stock Code: 533292
+2023-09-06 09:34:31,591 - INFO - Processed: 7/4487 - Stock Code: 530499
+INFO:werkzeug:127.0.0.1 - - [06/Sep/2023 09:34:32] "GET /analyze/Aarey%20Drugs%20&%20Pharmaceuticals%20Ltd. HTTP/1.1" 200 -
+2023-09-06 09:34:33,590 - INFO - Processed: 8/4487 - Stock Code: 533292
+INFO:werkzeug:127.0.0.1 - - [06/Sep/2023 09:34:34] "GET /analyze/Aci%20Infocom%20Ltd. HTTP/1.1" 200 -
+2023-09-06 09:34:35,155 - WARNING - Stock 531611 is inactive.
+2023-09-06 09:34:35,175 - WARNING - Stock 531611 is inactive.
+2023-09-06 09:34:36,402 - INFO - Processed: 9/4487 - Stock Code: 530027
+2023-09-06 09:34:36,642 - INFO - Processed: 9/4487 - Stock Code: 530027
+2023-09-06 09:34:37,004 - WARNING - Stock 531866 is inactive.
+2023-09-06 09:34:38,025 - WARNING - Stock 531866 is inactive.
+2023-09-06 09:34:39,278 - INFO - Processed: 10/4487 - Stock Code: 539096
+2023-09-06 09:34:39,837 - INFO - Processed: 10/4487 - Stock Code: 539096
+2023-09-06 09:34:40,487 - INFO - Processed: 11/4487 - Stock Code: 538812
+2023-09-06 09:34:40,506 - INFO - Processed: 11/4487 - Stock Code: 538812
+2023-09-06 09:34:41,425 - INFO - Processed: 12/4487 - Stock Code: 524412
+2023-09-06 09:34:41,679 - INFO - Processed: 12/4487 - Stock Code: 524412
+2023-09-06 09:34:42,303 - INFO - Processed: 13/4487 - Stock Code: 524348
+INFO:werkzeug:127.0.0.1 - - [06/Sep/2023 09:34:42] "GET /analyze/Adi%20Rasayan%20Ltd. HTTP/1.1" 200 -
+2023-09-06 09:34:42,693 - INFO - Processed: 13/4487 - Stock Code: 524348
+2023-09-06 09:34:43,303 - INFO - Processed: 14/4487 - Stock Code: 524208
+2023-09-06 09:34:43,359 - INFO - Processed: 14/4487 - Stock Code: 524208
+2023-09-06 09:34:43,870 - INFO - Processed: 15/4487 - Stock Code: 514274
+2023-09-06 09:34:43,879 - INFO - Processed: 15/4487 - Stock Code: 514274
+2023-09-06 09:34:44,629 - WARNING - Stock 531731 is inactive.
+2023-09-06 09:34:44,763 - WARNING - Stock 531731 is inactive.
+2023-09-06 09:34:45,194 - INFO - Processed: 16/4487 - Stock Code: 519319
+2023-09-06 09:34:45,246 - INFO - Processed: 16/4487 - Stock Code: 519319
+INFO:werkzeug:127.0.0.1 - - [06/Sep/2023 09:34:45] "GET /analyze/Adf%20Foods%20Ltd.-$ HTTP/1.1" 200 -
+2023-09-06 09:34:45,708 - INFO - Processed: 17/4487 - Stock Code: 512038
+2023-09-06 09:34:45,730 - INFO - Processed: 17/4487 - Stock Code: 512038
+2023-09-06 09:34:47,106 - INFO - Processed: 18/4487 - Stock Code: 523204
+2023-09-06 09:34:47,627 - INFO - Processed: 19/4487 - Stock Code: 512165
+2023-09-06 09:34:47,980 - INFO - Processed: 18/4487 - Stock Code: 523204
+INFO:werkzeug:127.0.0.1 - - [06/Sep/2023 09:34:49] "GET /analyze/Abans%20Enterprises%20Ltd HTTP/1.1" 200 -
+2023-09-06 09:34:49,733 - INFO - Processed: 19/4487 - Stock Code: 512165
+2023-09-06 09:34:50,832 - INFO - Processed: 20/4487 - Stock Code: 500002
+2023-09-06 09:34:51,498 - INFO - Processed: 21/4487 - Stock Code: 500488
+2023-09-06 09:34:52,146 - WARNING - Stock 505665 is inactive.
+2023-09-06 09:34:54,087 - INFO - Processed: 20/4487 - Stock Code: 500002
+2023-09-06 09:34:55,707 - INFO - Processed: 22/4487 - Stock Code: 513119
+2023-09-06 09:34:55,871 - INFO - Processed: 21/4487 - Stock Code: 500488
+2023-09-06 09:34:56,295 - WARNING - Stock 505665 is inactive.
+2023-09-06 09:34:56,624 - INFO - Processed: 22/4487 - Stock Code: 513119
+2023-09-06 09:34:57,785 - INFO - Processed: 23/4487 - Stock Code: 520123
+2023-09-06 09:34:59,745 - INFO - Processed: 23/4487 - Stock Code: 520123
+2023-09-06 09:35:00,610 - WARNING - Stock 532682 is inactive.
+2023-09-06 09:35:01,143 - WARNING - Stock 532682 is inactive.
+2023-09-06 09:35:01,860 - INFO - Processed: 24/4487 - Stock Code: 532057
+2023-09-06 09:35:03,811 - INFO - Processed: 25/4487 - Stock Code: 538952
+2023-09-06 09:35:04,970 - INFO - Processed: 24/4487 - Stock Code: 532057
+2023-09-06 09:35:05,699 - WARNING - Stock 532831 is inactive.
+2023-09-06 09:35:06,199 - INFO - Processed: 26/4487 - Stock Code: 538935
+2023-09-06 09:35:07,008 - INFO - Processed: 25/4487 - Stock Code: 538952
+2023-09-06 09:35:07,166 - INFO - Processed: 27/4487 - Stock Code: 511756
+2023-09-06 09:35:07,807 - WARNING - Stock 532831 is inactive.
+2023-09-06 09:35:08,020 - INFO - Processed: 26/4487 - Stock Code: 538935
+2023-09-06 09:35:08,586 - INFO - Processed: 27/4487 - Stock Code: 511756
+2023-09-06 09:35:09,408 - WARNING - Stock 526955 is inactive.
+2023-09-06 09:35:09,639 - WARNING - Stock 526955 is inactive.
+2023-09-06 09:35:10,244 - INFO - Processed: 28/4487 - Stock Code: 531161
+2023-09-06 09:35:10,517 - INFO - Processed: 29/4487 - Stock Code: 500410
+2023-09-06 09:35:10,836 - INFO - Processed: 28/4487 - Stock Code: 531161
+2023-09-06 09:35:11,069 - INFO - Processed: 29/4487 - Stock Code: 500410
+2023-09-06 09:35:11,666 - INFO - Processed: 30/4487 - Stock Code: 532774
+2023-09-06 09:35:12,217 - INFO - Processed: 30/4487 - Stock Code: 532774
+2023-09-06 09:35:12,417 - INFO - Processed: 31/4487 - Stock Code: 517494
+2023-09-06 09:35:12,874 - INFO - Processed: 31/4487 - Stock Code: 517494
+2023-09-06 09:35:13,302 - INFO - Processed: 32/4487 - Stock Code: 532268
+2023-09-06 09:35:13,455 - INFO - Processed: 32/4487 - Stock Code: 532268
+2023-09-06 09:35:14,340 - WARNING - Stock 531897 is inactive.
+2023-09-06 09:35:14,603 - WARNING - Stock 531897 is inactive.
+2023-09-06 09:35:15,069 - WARNING - Stock 526347 is inactive.
+2023-09-06 09:35:15,138 - WARNING - Stock 526347 is inactive.
+2023-09-06 09:35:16,296 - WARNING - Stock 530513 is inactive.
+2023-09-06 09:35:16,600 - WARNING - Stock 530513 is inactive.
+2023-09-06 09:35:16,992 - WARNING - Stock 530093 is inactive.
+2023-09-06 09:35:17,292 - WARNING - Stock 530093 is inactive.
+2023-09-06 09:35:17,691 - INFO - Processed: 33/4487 - Stock Code: 531525
+2023-09-06 09:35:18,688 - WARNING - Stock 536492 is inactive.
+2023-09-06 09:35:18,723 - INFO - Processed: 33/4487 - Stock Code: 531525
+2023-09-06 09:35:18,971 - WARNING - Stock 536492 is inactive.
+2023-09-06 09:35:19,576 - WARNING - Stock 538570 is inactive.
+2023-09-06 09:35:19,584 - WARNING - Stock 538570 is inactive.
+2023-09-06 09:35:21,502 - INFO - Processed: 34/4487 - Stock Code: 517356
+2023-09-06 09:35:22,327 - WARNING - Stock 530901 is inactive.
+2023-09-06 09:35:23,007 - INFO - Processed: 34/4487 - Stock Code: 517356
+2023-09-06 09:35:23,185 - INFO - Processed: 35/4487 - Stock Code: 530043
+2023-09-06 09:35:23,641 - WARNING - Stock 530901 is inactive.
+2023-09-06 09:35:23,841 - INFO - Processed: 35/4487 - Stock Code: 530043
+2023-09-06 09:35:24,397 - INFO - Processed: 36/4487 - Stock Code: 539391
+2023-09-06 09:35:24,403 - INFO - Processed: 36/4487 - Stock Code: 539391
+2023-09-06 09:35:24,970 - WARNING - Stock 533330 is inactive.
+2023-09-06 09:35:24,981 - WARNING - Stock 533330 is inactive.
+2023-09-06 09:35:25,502 - INFO - Processed: 37/4487 - Stock Code: 513149
+2023-09-06 09:35:25,690 - INFO - Processed: 37/4487 - Stock Code: 513149
+2023-09-06 09:35:26,385 - INFO - Processed: 38/4487 - Stock Code: 524091
+2023-09-06 09:35:26,755 - INFO - Processed: 38/4487 - Stock Code: 524091
+2023-09-06 09:35:27,246 - INFO - Processed: 39/4487 - Stock Code: 532762
+2023-09-06 09:35:27,442 - INFO - Processed: 39/4487 - Stock Code: 532762
+2023-09-06 09:35:27,722 - WARNING - Stock 511706 is inactive.
+2023-09-06 09:35:28,125 - WARNING - Stock 511706 is inactive.
+2023-09-06 09:35:28,772 - INFO - Processed: 40/4487 - Stock Code: 511359
+2023-09-06 09:35:28,938 - INFO - Processed: 40/4487 - Stock Code: 511359
+2023-09-06 09:35:30,319 - INFO - Processed: 41/4487 - Stock Code: 512599
+2023-09-06 09:35:30,339 - INFO - Processed: 41/4487 - Stock Code: 512599
+2023-09-06 09:35:30,460 - INFO - Processed: 42/4487 - Stock Code: 532921
+2023-09-06 09:35:30,586 - INFO - Processed: 42/4487 - Stock Code: 532921
+2023-09-06 09:35:31,487 - INFO - Processed: 43/4487 - Stock Code: 533096
+2023-09-06 09:35:31,693 - INFO - Processed: 43/4487 - Stock Code: 533096
+2023-09-06 09:35:32,409 - INFO - Processed: 44/4487 - Stock Code: 539254
+2023-09-06 09:35:32,839 - WARNING - Stock 538563 is inactive.
+2023-09-06 09:35:32,863 - INFO - Processed: 44/4487 - Stock Code: 539254
+2023-09-06 09:35:33,112 - WARNING - Stock 538563 is inactive.
+2023-09-06 09:35:33,639 - INFO - Processed: 45/4487 - Stock Code: 526711
+2023-09-06 09:35:34,328 - INFO - Processed: 46/4487 - Stock Code: 523411
+2023-09-06 09:35:34,697 - INFO - Processed: 45/4487 - Stock Code: 526711
+2023-09-06 09:35:35,275 - INFO - Processed: 46/4487 - Stock Code: 523411
+2023-09-06 09:35:36,078 - INFO - Processed: 47/4487 - Stock Code: 538734
+2023-09-06 09:35:36,667 - INFO - Processed: 48/4487 - Stock Code: 507852
+2023-09-06 09:35:36,681 - INFO - Processed: 47/4487 - Stock Code: 538734
+2023-09-06 09:35:36,999 - INFO - Processed: 48/4487 - Stock Code: 507852
+2023-09-06 09:35:37,297 - INFO - Processed: 49/4487 - Stock Code: 519183
+2023-09-06 09:35:37,999 - INFO - Processed: 49/4487 - Stock Code: 519183
+2023-09-06 09:35:38,182 - WARNING - Stock 539189 is inactive.
+2023-09-06 09:35:38,280 - WARNING - Stock 539189 is inactive.
+2023-09-06 09:35:38,906 - INFO - Processed: 50/4487 - Stock Code: 538365
+2023-09-06 09:35:39,026 - INFO - Processed: 50/4487 - Stock Code: 538365
+2023-09-06 09:35:39,751 - WARNING - Stock 532727 is inactive.
+2023-09-06 09:35:39,781 - WARNING - Stock 532727 is inactive.
+2023-09-06 09:35:41,045 - INFO - Processed: 51/4487 - Stock Code: 530117
+2023-09-06 09:35:41,308 - INFO - Processed: 51/4487 - Stock Code: 530117
+2023-09-06 09:35:41,951 - INFO - Processed: 52/4487 - Stock Code: 531592
+2023-09-06 09:35:41,980 - INFO - Processed: 52/4487 - Stock Code: 531592
+2023-09-06 09:35:43,009 - WARNING - Stock 590088 is inactive.
+2023-09-06 09:35:43,366 - WARNING - Stock 590088 is inactive.
+2023-09-06 09:35:43,832 - INFO - Processed: 53/4487 - Stock Code: 532056
+2023-09-06 09:35:44,701 - INFO - Processed: 53/4487 - Stock Code: 532056
+2023-09-06 09:35:45,632 - INFO - Processed: 54/4487 - Stock Code: 514113
+2023-09-06 09:35:45,694 - INFO - Processed: 54/4487 - Stock Code: 514113
+2023-09-06 09:35:46,164 - WARNING - Stock 500057 is inactive.
+2023-09-06 09:35:46,426 - WARNING - Stock 500057 is inactive.
+2023-09-06 09:35:46,813 - INFO - Processed: 55/4487 - Stock Code: 535755
+2023-09-06 09:35:47,067 - INFO - Processed: 55/4487 - Stock Code: 535755
+2023-09-06 09:35:47,379 - INFO - Processed: 56/4487 - Stock Code: 532974
+2023-09-06 09:35:47,483 - INFO - Processed: 56/4487 - Stock Code: 532974
+2023-09-06 09:35:48,124 - WARNING - Stock 500303 is inactive.
+2023-09-06 09:35:48,213 - WARNING - Stock 500303 is inactive.
+2023-09-06 09:35:48,913 - WARNING - Stock 522150 is inactive.
+2023-09-06 09:35:49,256 - WARNING - Stock 522150 is inactive.
+2023-09-06 09:35:49,624 - INFO - Processed: 57/4487 - Stock Code: 513513
+2023-09-06 09:35:49,704 - INFO - Processed: 57/4487 - Stock Code: 513513
+2023-09-06 09:35:50,444 - INFO - Processed: 58/4487 - Stock Code: 521141
+2023-09-06 09:35:51,075 - INFO - Processed: 59/4487 - Stock Code: 539056
+2023-09-06 09:35:51,129 - INFO - Processed: 58/4487 - Stock Code: 521141
+2023-09-06 09:35:52,400 - INFO - Processed: 59/4487 - Stock Code: 539056
+2023-09-06 09:35:52,459 - INFO - Processed: 60/4487 - Stock Code: 530431
+2023-09-06 09:35:52,863 - INFO - Processed: 60/4487 - Stock Code: 530431
+2023-09-06 09:35:53,710 - INFO - Processed: 61/4487 - Stock Code: 523120
+2023-09-06 09:35:54,650 - INFO - Processed: 61/4487 - Stock Code: 523120
+2023-09-06 09:35:55,306 - INFO - Processed: 62/4487 - Stock Code: 517041
+2023-09-06 09:35:55,324 - INFO - Processed: 62/4487 - Stock Code: 517041
+2023-09-06 09:35:55,975 - WARNING - Stock 523031 is inactive.
+2023-09-06 09:35:56,053 - WARNING - Stock 523031 is inactive.
+2023-09-06 09:35:56,443 - INFO - Processed: 63/4487 - Stock Code: 521048
+2023-09-06 09:35:56,644 - INFO - Processed: 63/4487 - Stock Code: 521048
+2023-09-06 09:35:58,604 - INFO - Processed: 64/4487 - Stock Code: 534612
+2023-09-06 09:35:59,841 - INFO - Processed: 65/4487 - Stock Code: 506947
+2023-09-06 09:36:00,948 - WARNING - Stock 531047 is inactive.
+2023-09-06 09:36:01,399 - WARNING - Stock 517552 is inactive.
+2023-09-06 09:36:01,924 - INFO - Processed: 66/4487 - Stock Code: 523269
+2023-09-06 09:36:03,300 - WARNING - Stock 532840 is inactive.
+2023-09-06 09:36:04,316 - WARNING - Stock 531429 is inactive.
+2023-09-06 09:36:05,231 - INFO - Processed: 67/4487 - Stock Code: 531686
+2023-09-06 09:36:05,933 - INFO - Processed: 68/4487 - Stock Code: 500003
+2023-09-06 09:36:06,558 - WARNING - Stock 530707 is inactive.
+2023-09-06 09:36:07,077 - INFO - Processed: 69/4487 - Stock Code: 531921
+2023-09-06 09:36:07,902 - INFO - Processed: 70/4487 - Stock Code: 500463
+2023-09-06 09:36:08,600 - INFO - Processed: 71/4487 - Stock Code: 539042
+2023-09-06 09:36:09,003 - INFO - Processed: 72/4487 - Stock Code: 516020
+2023-09-06 09:36:09,603 - INFO - Processed: 73/4487 - Stock Code: 537292
+2023-09-06 09:36:10,605 - WARNING - Stock 537492 is inactive.
+2023-09-06 09:36:11,096 - WARNING - Stock 519281 is inactive.
+2023-09-06 09:36:11,599 - INFO - Processed: 74/4487 - Stock Code: 500215
+2023-09-06 09:36:12,223 - WARNING - Stock 524448 is inactive.
+2023-09-06 09:36:12,964 - INFO - Processed: 75/4487 - Stock Code: 532811
+2023-09-06 09:36:13,734 - INFO - Processed: 64/4487 - Stock Code: 534612
+2023-09-06 09:36:13,869 - INFO - Processed: 76/4487 - Stock Code: 522273
+2023-09-06 09:36:14,847 - INFO - Processed: 65/4487 - Stock Code: 506947
+2023-09-06 09:36:15,289 - INFO - Processed: 77/4487 - Stock Code: 532806
+2023-09-06 09:36:15,881 - INFO - Processed: 78/4487 - Stock Code: 532683
+2023-09-06 09:36:16,050 - WARNING - Stock 531047 is inactive.
+2023-09-06 09:36:16,209 - WARNING - Stock 517552 is inactive.
+2023-09-06 09:36:16,572 - WARNING - Stock 506822 is inactive.
+2023-09-06 09:36:16,754 - INFO - Processed: 66/4487 - Stock Code: 523269
+2023-09-06 09:36:16,925 - WARNING - Stock 532840 is inactive.
+2023-09-06 09:36:17,131 - WARNING - Stock 531429 is inactive.
+2023-09-06 09:36:17,278 - INFO - Processed: 67/4487 - Stock Code: 531686
+2023-09-06 09:36:17,367 - INFO - Processed: 79/4487 - Stock Code: 524288
+2023-09-06 09:36:17,536 - INFO - Processed: 68/4487 - Stock Code: 500003
+2023-09-06 09:36:17,740 - WARNING - Stock 530707 is inactive.
+2023-09-06 09:36:17,855 - INFO - Processed: 80/4487 - Stock Code: 532975
+2023-09-06 09:36:17,981 - INFO - Processed: 69/4487 - Stock Code: 531921
+2023-09-06 09:36:18,166 - INFO - Processed: 70/4487 - Stock Code: 500463
+2023-09-06 09:36:18,905 - INFO - Processed: 71/4487 - Stock Code: 539042
+2023-09-06 09:36:19,118 - INFO - Processed: 72/4487 - Stock Code: 516020
+2023-09-06 09:36:19,546 - INFO - Processed: 81/4487 - Stock Code: 532331
+2023-09-06 09:36:20,302 - INFO - Processed: 82/4487 - Stock Code: 519216
+2023-09-06 09:36:20,697 - INFO - Processed: 73/4487 - Stock Code: 537292
+2023-09-06 09:36:20,894 - WARNING - Stock 537492 is inactive.
+2023-09-06 09:36:21,168 - INFO - Processed: 83/4487 - Stock Code: 511692
+2023-09-06 09:36:21,528 - WARNING - Stock 519281 is inactive.
+2023-09-06 09:36:21,684 - INFO - Processed: 74/4487 - Stock Code: 500215
+2023-09-06 09:36:22,218 - WARNING - Stock 524448 is inactive.
+2023-09-06 09:36:22,486 - INFO - Processed: 75/4487 - Stock Code: 532811
+2023-09-06 09:36:22,726 - INFO - Processed: 76/4487 - Stock Code: 522273
+2023-09-06 09:36:22,854 - INFO - Processed: 84/4487 - Stock Code: 530713
+2023-09-06 09:36:23,552 - INFO - Processed: 77/4487 - Stock Code: 532806
+2023-09-06 09:36:24,924 - INFO - Processed: 78/4487 - Stock Code: 532683
+2023-09-06 09:36:25,138 - WARNING - Stock 506822 is inactive.
+2023-09-06 09:36:25,421 - INFO - Processed: 85/4487 - Stock Code: 513349
+2023-09-06 09:36:25,506 - INFO - Processed: 79/4487 - Stock Code: 524288
+2023-09-06 09:36:26,129 - WARNING - Stock 526628 is inactive.
+2023-09-06 09:36:26,787 - INFO - Processed: 80/4487 - Stock Code: 532975
+2023-09-06 09:36:27,024 - INFO - Processed: 81/4487 - Stock Code: 532331
+2023-09-06 09:36:27,514 - INFO - Processed: 82/4487 - Stock Code: 519216
+2023-09-06 09:36:27,968 - INFO - Processed: 83/4487 - Stock Code: 511692
+2023-09-06 09:36:28,179 - INFO - Processed: 84/4487 - Stock Code: 530713
+2023-09-06 09:36:28,328 - INFO - Processed: 85/4487 - Stock Code: 513349
+2023-09-06 09:36:28,346 - INFO - Processed: 86/4487 - Stock Code: 530621
+2023-09-06 09:36:28,467 - WARNING - Stock 526628 is inactive.
+2023-09-06 09:36:28,642 - INFO - Processed: 86/4487 - Stock Code: 530621
+2023-09-06 09:36:29,467 - INFO - Processed: 87/4487 - Stock Code: 538778
+2023-09-06 09:36:29,518 - INFO - Processed: 87/4487 - Stock Code: 538778
+2023-09-06 09:36:30,062 - INFO - Processed: 88/4487 - Stock Code: 539017
+2023-09-06 09:36:30,063 - INFO - Processed: 88/4487 - Stock Code: 539017
+2023-09-06 09:36:30,564 - INFO - Processed: 89/4487 - Stock Code: 532351
+2023-09-06 09:36:30,617 - INFO - Processed: 89/4487 - Stock Code: 532351
+2023-09-06 09:36:31,428 - INFO - Processed: 90/4487 - Stock Code: 524598
+2023-09-06 09:36:31,445 - INFO - Processed: 90/4487 - Stock Code: 524598
+2023-09-06 09:36:32,100 - INFO - Processed: 91/4487 - Stock Code: 500710
+2023-09-06 09:36:32,164 - INFO - Processed: 91/4487 - Stock Code: 500710
+INFO:werkzeug:127.0.0.1 - - [06/Sep/2023 09:36:32] "GET /analyze HTTP/1.1" 200 -
+2023-09-06 09:36:33,184 - INFO - Processed: 92/4487 - Stock Code: 535916
+INFO:werkzeug:127.0.0.1 - - [06/Sep/2023 09:36:33] "GET /analyze/20%20Microns%20Ltd. HTTP/1.1" 200 -
+2023-09-06 09:36:34,042 - INFO - Processed: 92/4487 - Stock Code: 535916
+2023-09-06 09:36:34,323 - INFO - Processed: 93/4487 - Stock Code: 539115
+2023-09-06 09:36:34,511 - INFO - Processed: 93/4487 - Stock Code: 539115
+2023-09-06 09:36:34,973 - WARNING - Stock 531517 is inactive.
+2023-09-06 09:36:35,480 - WARNING - Stock 531517 is inactive.
+2023-09-06 09:36:35,746 - INFO - Processed: 94/4487 - Stock Code: 531082
+2023-09-06 09:36:35,867 - INFO - Processed: 94/4487 - Stock Code: 531082
+2023-09-06 09:36:36,397 - INFO - Processed: 95/4487 - Stock Code: 524075
+2023-09-06 09:36:36,533 - INFO - Processed: 95/4487 - Stock Code: 524075
+2023-09-06 09:36:37,055 - INFO - Processed: 96/4487 - Stock Code: 531409
+2023-09-06 09:36:37,416 - INFO - Processed: 96/4487 - Stock Code: 531409
+2023-09-06 09:36:38,020 - WARNING - Stock 526707 is inactive.
+2023-09-06 09:36:38,040 - WARNING - Stock 526707 is inactive.
+2023-09-06 09:36:38,786 - WARNING - Stock 532114 is inactive.
+2023-09-06 09:36:38,790 - WARNING - Stock 532114 is inactive.
+2023-09-06 09:36:39,228 - INFO - Processed: 97/4487 - Stock Code: 506235
+2023-09-06 09:36:39,281 - INFO - Processed: 97/4487 - Stock Code: 506235
+2023-09-06 09:36:40,212 - INFO - Processed: 98/4487 - Stock Code: 533573
+2023-09-06 09:36:40,731 - INFO - Processed: 99/4487 - Stock Code: 530973
+2023-09-06 09:36:40,834 - INFO - Processed: 98/4487 - Stock Code: 533573
+2023-09-06 09:36:41,074 - INFO - Processed: 99/4487 - Stock Code: 530973
+2023-09-06 09:36:41,236 - INFO - Processed: 100/4487 - Stock Code: 517546
+2023-09-06 09:36:41,243 - INFO - Processed: 100/4487 - Stock Code: 517546
+2023-09-06 09:36:41,740 - INFO - Processed: 101/4487 - Stock Code: 531156
+2023-09-06 09:36:41,807 - INFO - Processed: 101/4487 - Stock Code: 531156
+2023-09-06 09:36:42,391 - INFO - Processed: 102/4487 - Stock Code: 505216
+2023-09-06 09:36:42,516 - INFO - Processed: 102/4487 - Stock Code: 505216
+2023-09-06 09:36:42,931 - INFO - Processed: 103/4487 - Stock Code: 531147
+2023-09-06 09:36:43,069 - INFO - Processed: 103/4487 - Stock Code: 531147
+2023-09-06 09:36:43,269 - WARNING - Stock 531581 is inactive.
+2023-09-06 09:36:43,316 - WARNING - Stock 531581 is inactive.
+2023-09-06 09:36:44,027 - WARNING - Stock 530889 is inactive.
+2023-09-06 09:36:44,542 - WARNING - Stock 530889 is inactive.
+2023-09-06 09:36:44,646 - WARNING - Stock 532166 is inactive.
+2023-09-06 09:36:46,096 - INFO - Processed: 104/4487 - Stock Code: 533029
+2023-09-06 09:36:46,404 - WARNING - Stock 532166 is inactive.
+2023-09-06 09:36:46,737 - INFO - Processed: 105/4487 - Stock Code: 506767
+2023-09-06 09:36:47,008 - INFO - Processed: 104/4487 - Stock Code: 533029
+2023-09-06 09:36:47,174 - INFO - Processed: 105/4487 - Stock Code: 506767
+2023-09-06 09:36:47,552 - WARNING - Stock 532480 is inactive.
+2023-09-06 09:36:47,815 - WARNING - Stock 532480 is inactive.
+2023-09-06 09:36:48,165 - INFO - Processed: 106/4487 - Stock Code: 532749
+2023-09-06 09:36:48,242 - INFO - Processed: 106/4487 - Stock Code: 532749
+2023-09-06 09:36:48,747 - INFO - Processed: 107/4487 - Stock Code: 534064
+2023-09-06 09:36:49,162 - INFO - Processed: 107/4487 - Stock Code: 534064
+2023-09-06 09:36:49,576 - WARNING - Stock 532919 is inactive.
+2023-09-06 09:36:50,186 - WARNING - Stock 532919 is inactive.
+2023-09-06 09:36:50,458 - INFO - Processed: 108/4487 - Stock Code: 532875
+2023-09-06 09:36:50,934 - INFO - Processed: 108/4487 - Stock Code: 532875
+2023-09-06 09:36:51,043 - INFO - Processed: 109/4487 - Stock Code: 532633
+2023-09-06 09:36:51,186 - INFO - Processed: 109/4487 - Stock Code: 532633
+2023-09-06 09:36:51,443 - INFO - Processed: 110/4487 - Stock Code: 531400
+2023-09-06 09:36:51,926 - INFO - Processed: 110/4487 - Stock Code: 531400
+2023-09-06 09:36:52,313 - WARNING - Stock 506120 is inactive.
+2023-09-06 09:36:52,411 - WARNING - Stock 506120 is inactive.
+2023-09-06 09:36:52,722 - INFO - Processed: 111/4487 - Stock Code: 521070
+2023-09-06 09:36:52,948 - INFO - Processed: 111/4487 - Stock Code: 521070
+2023-09-06 09:36:53,275 - INFO - Processed: 112/4487 - Stock Code: 532878
+2023-09-06 09:36:53,660 - WARNING - Stock 531720 is inactive.
+2023-09-06 09:36:54,040 - WARNING - Stock 531247 is inactive.
+2023-09-06 09:36:54,548 - INFO - Processed: 113/4487 - Stock Code: 526397
+2023-09-06 09:36:55,031 - INFO - Processed: 112/4487 - Stock Code: 532878
+2023-09-06 09:36:55,178 - WARNING - Stock 531720 is inactive.
+2023-09-06 09:36:55,365 - WARNING - Stock 531247 is inactive.
+2023-09-06 09:36:55,512 - INFO - Processed: 113/4487 - Stock Code: 526397
+2023-09-06 09:36:55,533 - INFO - Processed: 114/4487 - Stock Code: 526519
+2023-09-06 09:36:55,672 - INFO - Processed: 114/4487 - Stock Code: 526519
+2023-09-06 09:36:57,303 - INFO - Processed: 115/4487 - Stock Code: 530715
+2023-09-06 09:36:58,126 - INFO - Processed: 115/4487 - Stock Code: 530715
+2023-09-06 09:36:58,132 - INFO - Processed: 116/4487 - Stock Code: 532309
+2023-09-06 09:36:58,660 - INFO - Processed: 117/4487 - Stock Code: 522275
+2023-09-06 09:36:59,089 - INFO - Processed: 116/4487 - Stock Code: 532309
+2023-09-06 09:36:59,610 - INFO - Processed: 117/4487 - Stock Code: 522275
+2023-09-06 09:37:00,480 - INFO - Processed: 118/4487 - Stock Code: 539277
+2023-09-06 09:37:00,785 - INFO - Processed: 118/4487 - Stock Code: 539277
+2023-09-06 09:37:01,170 - INFO - Processed: 119/4487 - Stock Code: 524634
+2023-09-06 09:37:01,177 - INFO - Processed: 119/4487 - Stock Code: 524634
+2023-09-06 09:37:02,030 - INFO - Processed: 120/4487 - Stock Code: 506597
+2023-09-06 09:37:03,090 - INFO - Processed: 121/4487 - Stock Code: 501622
+2023-09-06 09:37:03,420 - INFO - Processed: 122/4487 - Stock Code: 512008
+2023-09-06 09:37:04,102 - WARNING - Stock 532664 is inactive.
+2023-09-06 09:37:04,359 - INFO - Processed: 123/4487 - Stock Code: 500008
+2023-09-06 09:37:04,445 - INFO - Processed: 120/4487 - Stock Code: 506597
+2023-09-06 09:37:04,798 - INFO - Processed: 121/4487 - Stock Code: 501622
+2023-09-06 09:37:04,891 - INFO - Processed: 124/4487 - Stock Code: 521097
+2023-09-06 09:37:05,087 - INFO - Processed: 122/4487 - Stock Code: 512008
+2023-09-06 09:37:05,347 - WARNING - Stock 532664 is inactive.
+2023-09-06 09:37:05,915 - INFO - Processed: 123/4487 - Stock Code: 500008
+2023-09-06 09:37:06,016 - INFO - Processed: 125/4487 - Stock Code: 538465
+2023-09-06 09:37:06,810 - INFO - Processed: 124/4487 - Stock Code: 521097
+2023-09-06 09:37:06,820 - INFO - Processed: 126/4487 - Stock Code: 539196
+2023-09-06 09:37:06,952 - INFO - Processed: 125/4487 - Stock Code: 538465
+2023-09-06 09:37:07,599 - INFO - Processed: 126/4487 - Stock Code: 539196
+2023-09-06 09:37:09,262 - INFO - Processed: 127/4487 - Stock Code: 500009
+2023-09-06 09:37:09,291 - INFO - Processed: 127/4487 - Stock Code: 500009
+2023-09-06 09:37:11,165 - INFO - Processed: 128/4487 - Stock Code: 532335
+2023-09-06 09:37:11,174 - INFO - Processed: 128/4487 - Stock Code: 532335
+2023-09-06 09:37:11,666 - INFO - Processed: 129/4487 - Stock Code: 531978
+2023-09-06 09:37:12,170 - INFO - Processed: 130/4487 - Stock Code: 539223
+2023-09-06 09:37:12,296 - INFO - Processed: 129/4487 - Stock Code: 531978
+2023-09-06 09:37:12,933 - INFO - Processed: 131/4487 - Stock Code: 526439
+2023-09-06 09:37:13,051 - INFO - Processed: 132/4487 - Stock Code: 500425
+2023-09-06 09:37:13,421 - INFO - Processed: 130/4487 - Stock Code: 539223
+2023-09-06 09:37:13,475 - INFO - Processed: 133/4487 - Stock Code: 530133
+2023-09-06 09:37:13,565 - INFO - Processed: 131/4487 - Stock Code: 526439
+2023-09-06 09:37:13,751 - INFO - Processed: 132/4487 - Stock Code: 500425
+2023-09-06 09:37:13,942 - INFO - Processed: 134/4487 - Stock Code: 532828
+2023-09-06 09:37:14,172 - INFO - Processed: 133/4487 - Stock Code: 530133
+2023-09-06 09:37:14,300 - INFO - Processed: 135/4487 - Stock Code: 513117
+2023-09-06 09:37:14,561 - INFO - Processed: 134/4487 - Stock Code: 532828
+2023-09-06 09:37:14,886 - INFO - Processed: 136/4487 - Stock Code: 506248
+2023-09-06 09:37:14,948 - INFO - Processed: 135/4487 - Stock Code: 513117
+2023-09-06 09:37:15,089 - INFO - Processed: 136/4487 - Stock Code: 506248
+2023-09-06 09:37:15,255 - INFO - Processed: 137/4487 - Stock Code: 531300
+2023-09-06 09:37:15,302 - INFO - Processed: 137/4487 - Stock Code: 531300
+2023-09-06 09:37:15,896 - WARNING - Stock 531557 is inactive.
+2023-09-06 09:37:16,205 - WARNING - Stock 531557 is inactive.
+2023-09-06 09:37:16,434 - WARNING - Stock 521076 is inactive.
+2023-09-06 09:37:16,446 - WARNING - Stock 521076 is inactive.
+2023-09-06 09:37:16,804 - INFO - Processed: 138/4487 - Stock Code: 531681
+2023-09-06 09:37:17,057 - INFO - Processed: 138/4487 - Stock Code: 531681
+2023-09-06 09:37:17,156 - WARNING - Stock 536737 is inactive.
+2023-09-06 09:37:17,833 - WARNING - Stock 536737 is inactive.
+2023-09-06 09:37:18,190 - WARNING - Stock 539265 is inactive.
+2023-09-06 09:37:18,279 - WARNING - Stock 539265 is inactive.
+2023-09-06 09:37:18,640 - INFO - Processed: 139/4487 - Stock Code: 526241
+2023-09-06 09:37:18,643 - INFO - Processed: 139/4487 - Stock Code: 526241
+2023-09-06 09:37:19,065 - INFO - Processed: 140/4487 - Stock Code: 531991
+2023-09-06 09:37:19,194 - INFO - Processed: 140/4487 - Stock Code: 531991
+2023-09-06 09:37:19,742 - WARNING - Stock 507525 is inactive.
+2023-09-06 09:37:20,180 - WARNING - Stock 507525 is inactive.
+2023-09-06 09:37:20,654 - INFO - Processed: 141/4487 - Stock Code: 590006
+2023-09-06 09:37:20,926 - INFO - Processed: 141/4487 - Stock Code: 590006
+2023-09-06 09:37:21,295 - WARNING - Stock 538861 is inactive.
+2023-09-06 09:37:21,878 - WARNING - Stock 520077 is inactive.
+2023-09-06 09:37:22,059 - WARNING - Stock 538861 is inactive.
+2023-09-06 09:37:22,369 - INFO - Processed: 142/4487 - Stock Code: 531761
+2023-09-06 09:37:22,444 - WARNING - Stock 520077 is inactive.
+2023-09-06 09:37:22,600 - INFO - Processed: 142/4487 - Stock Code: 531761
+2023-09-06 09:37:23,755 - WARNING - Stock 531678 is inactive.
+2023-09-06 09:37:23,801 - WARNING - Stock 531678 is inactive.
+2023-09-06 09:37:25,299 - WARNING - Stock 501630 is inactive.
+2023-09-06 09:37:25,476 - WARNING - Stock 501630 is inactive.
+2023-09-06 09:37:26,510 - INFO - Processed: 143/4487 - Stock Code: 515055
+2023-09-06 09:37:26,965 - INFO - Processed: 143/4487 - Stock Code: 515055
+2023-09-06 09:37:27,451 - WARNING - Stock 526833 is inactive.
+2023-09-06 09:37:27,492 - WARNING - Stock 526833 is inactive.
+2023-09-06 09:37:28,768 - INFO - Processed: 144/4487 - Stock Code: 531127
+2023-09-06 09:37:29,080 - INFO - Processed: 144/4487 - Stock Code: 531127
+2023-09-06 09:37:31,165 - WARNING - Stock 532418 is inactive.
+2023-09-06 09:37:31,278 - WARNING - Stock 532418 is inactive.
+2023-09-06 09:37:32,187 - INFO - Processed: 145/4487 - Stock Code: 532141
+2023-09-06 09:37:32,889 - INFO - Processed: 145/4487 - Stock Code: 532141
+2023-09-06 09:37:33,412 - INFO - Processed: 146/4487 - Stock Code: 500012
+2023-09-06 09:37:33,450 - INFO - Processed: 146/4487 - Stock Code: 500012
+2023-09-06 09:37:33,858 - INFO - Processed: 147/4487 - Stock Code: 590062
+2023-09-06 09:37:34,207 - INFO - Processed: 147/4487 - Stock Code: 590062
+2023-09-06 09:37:34,697 - INFO - Processed: 148/4487 - Stock Code: 526173
+2023-09-06 09:37:35,029 - INFO - Processed: 148/4487 - Stock Code: 526173
+2023-09-06 09:37:35,393 - WARNING - Stock 530721 is inactive.
+2023-09-06 09:37:35,508 - WARNING - Stock 530721 is inactive.
+2023-09-06 09:37:36,066 - INFO - Processed: 149/4487 - Stock Code: 519383
+2023-09-06 09:37:36,262 - INFO - Processed: 149/4487 - Stock Code: 519383
+2023-09-06 09:37:36,687 - WARNING - Stock 532910 is inactive.
+2023-09-06 09:37:36,749 - WARNING - Stock 532910 is inactive.
+INFO:werkzeug:127.0.0.1 - - [06/Sep/2023 09:37:36] "GET /analyze/20%20Microns%20Ltd. HTTP/1.1" 200 -
+2023-09-06 09:37:37,624 - WARNING - Stock 504629 is inactive.
+INFO:werkzeug:127.0.0.1 - - [06/Sep/2023 09:37:37] "GET /analyze/20%20Microns%20Ltd. HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Sep/2023 09:37:37] "GET /analyze/20%20Microns%20Ltd. HTTP/1.1" 200 -
+2023-09-06 09:37:37,958 - WARNING - Stock 504629 is inactive.
+INFO:werkzeug:127.0.0.1 - - [06/Sep/2023 09:37:38] "GET /analyze/20%20Microns%20Ltd. HTTP/1.1" 200 -
+2023-09-06 09:37:38,119 - INFO - Processed: 150/4487 - Stock Code: 537785
+2023-09-06 09:37:38,161 - INFO - Processed: 150/4487 - Stock Code: 537785
+INFO:werkzeug:127.0.0.1 - - [06/Sep/2023 09:37:38] "GET /analyze/20%20Microns%20Ltd. HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Sep/2023 09:37:38] "GET /analyze/20%20Microns%20Ltd. HTTP/1.1" 200 -
+2023-09-06 09:37:38,634 - INFO - Processed: 151/4487 - Stock Code: 531878
+2023-09-06 09:37:38,657 - INFO - Processed: 151/4487 - Stock Code: 531878
+2023-09-06 09:37:39,104 - INFO - Processed: 152/4487 - Stock Code: 511153
+2023-09-06 09:37:39,182 - INFO - Processed: 152/4487 - Stock Code: 511153
+2023-09-06 09:37:39,532 - INFO - Processed: 153/4487 - Stock Code: 518091
+2023-09-06 09:37:39,814 - INFO - Processed: 153/4487 - Stock Code: 518091
+2023-09-06 09:37:39,902 - INFO - Processed: 154/4487 - Stock Code: 531223
+2023-09-06 09:37:39,946 - INFO - Processed: 154/4487 - Stock Code: 531223
+2023-09-06 09:37:40,337 - INFO - Processed: 155/4487 - Stock Code: 531673
+2023-09-06 09:37:40,433 - INFO - Processed: 155/4487 - Stock Code: 531673
+2023-09-06 09:37:40,831 - INFO - Processed: 156/4487 - Stock Code: 532870
+2023-09-06 09:37:40,943 - INFO - Processed: 156/4487 - Stock Code: 532870
+2023-09-06 09:37:41,325 - WARNING - Stock 531519 is inactive.
+2023-09-06 09:37:41,379 - WARNING - Stock 531519 is inactive.
+2023-09-06 09:37:41,834 - WARNING - Stock 530799 is inactive.
+2023-09-06 09:37:41,846 - WARNING - Stock 530799 is inactive.
+2023-09-06 09:37:42,203 - INFO - Processed: 157/4487 - Stock Code: 531406
+2023-09-06 09:37:42,429 - INFO - Processed: 157/4487 - Stock Code: 531406
+2023-09-06 09:37:42,646 - INFO - Processed: 158/4487 - Stock Code: 523007
+2023-09-06 09:37:42,708 - INFO - Processed: 158/4487 - Stock Code: 523007
+2023-09-06 09:37:43,064 - INFO - Processed: 159/4487 - Stock Code: 507828
+2023-09-06 09:37:43,137 - INFO - Processed: 159/4487 - Stock Code: 507828
+2023-09-06 09:37:43,717 - INFO - Processed: 160/4487 - Stock Code: 500013
+2023-09-06 09:37:43,852 - INFO - Processed: 160/4487 - Stock Code: 500013
+2023-09-06 09:37:44,493 - WARNING - Stock 512091 is inactive.
+2023-09-06 09:37:44,540 - WARNING - Stock 512091 is inactive.
+2023-09-06 09:37:45,069 - WARNING - Stock 534707 is inactive.
+2023-09-06 09:37:45,174 - WARNING - Stock 534707 is inactive.
+2023-09-06 09:37:45,554 - WARNING - Stock 532981 is inactive.
+2023-09-06 09:37:45,870 - WARNING - Stock 532981 is inactive.
+2023-09-06 09:37:46,328 - INFO - Processed: 161/4487 - Stock Code: 538833
+2023-09-06 09:37:46,443 - INFO - Processed: 161/4487 - Stock Code: 538833
+2023-09-06 09:37:46,823 - INFO - Processed: 162/4487 - Stock Code: 506260
+2023-09-06 09:37:46,902 - INFO - Processed: 162/4487 - Stock Code: 506260
+2023-09-06 09:37:47,321 - WARNING - Stock 512355 is inactive.
+2023-09-06 09:37:47,394 - WARNING - Stock 512355 is inactive.
+2023-09-06 09:37:48,111 - WARNING - Stock 506087 is inactive.
+2023-09-06 09:37:48,286 - WARNING - Stock 506087 is inactive.
+2023-09-06 09:37:50,029 - INFO - Processed: 163/4487 - Stock Code: 532259
+2023-09-06 09:37:50,203 - INFO - Processed: 163/4487 - Stock Code: 532259
+2023-09-06 09:37:51,021 - INFO - Processed: 164/4487 - Stock Code: 523694
+2023-09-06 09:37:51,346 - INFO - Processed: 164/4487 - Stock Code: 523694
+2023-09-06 09:37:52,144 - WARNING - Stock 506166 is inactive.
+2023-09-06 09:37:52,431 - WARNING - Stock 506166 is inactive.
+2023-09-06 09:37:53,023 - INFO - Processed: 165/4487 - Stock Code: 533758
+2023-09-06 09:37:53,086 - INFO - Processed: 165/4487 - Stock Code: 533758
+2023-09-06 09:37:53,743 - INFO - Processed: 166/4487 - Stock Code: 517096
+2023-09-06 09:37:53,779 - INFO - Processed: 166/4487 - Stock Code: 517096
+2023-09-06 09:37:54,179 - WARNING - Stock 511064 is inactive.
+2023-09-06 09:37:54,310 - WARNING - Stock 511064 is inactive.
+2023-09-06 09:37:54,886 - INFO - Processed: 167/4487 - Stock Code: 523537
+2023-09-06 09:37:55,050 - INFO - Processed: 167/4487 - Stock Code: 523537
+2023-09-06 09:37:55,507 - INFO - Processed: 168/4487 - Stock Code: 512437
+2023-09-06 09:37:55,507 - INFO - Processed: 168/4487 - Stock Code: 512437
+2023-09-06 09:37:57,197 - INFO - Processed: 169/4487 - Stock Code: 508869
+2023-09-06 09:37:57,398 - INFO - Processed: 169/4487 - Stock Code: 508869
+2023-09-06 09:37:58,197 - INFO - Processed: 170/4487 - Stock Code: 500877
+2023-09-06 09:37:58,292 - INFO - Processed: 170/4487 - Stock Code: 500877
+2023-09-06 09:37:59,364 - INFO - Processed: 171/4487 - Stock Code: 500014
+2023-09-06 09:37:59,417 - INFO - Processed: 171/4487 - Stock Code: 500014
+2023-09-06 09:38:00,262 - WARNING - Stock 538653 is inactive.
+2023-09-06 09:38:00,612 - WARNING - Stock 538653 is inactive.
+2023-09-06 09:38:01,039 - WARNING - Stock 507265 is inactive.
+2023-09-06 09:38:01,258 - WARNING - Stock 507265 is inactive.
+2023-09-06 09:38:01,511 - INFO - Processed: 172/4487 - Stock Code: 532475
+2023-09-06 09:38:01,861 - INFO - Processed: 172/4487 - Stock Code: 532475
+2023-09-06 09:38:03,448 - WARNING - Stock 535790 is inactive.
+2023-09-06 09:38:03,531 - WARNING - Stock 535790 is inactive.
+2023-09-06 09:38:04,364 - WARNING - Stock 533159 is inactive.
+2023-09-06 09:38:04,809 - INFO - Processed: 173/4487 - Stock Code: 531364
+2023-09-06 09:38:05,160 - WARNING - Stock 533159 is inactive.
+2023-09-06 09:38:05,269 - WARNING - Stock 539403 is inactive.
+2023-09-06 09:38:05,715 - INFO - Processed: 173/4487 - Stock Code: 531364
+2023-09-06 09:38:05,774 - WARNING - Stock 532068 is inactive.
+2023-09-06 09:38:06,183 - WARNING - Stock 539403 is inactive.
+2023-09-06 09:38:06,449 - INFO - Processed: 174/4487 - Stock Code: 512344
+2023-09-06 09:38:06,877 - WARNING - Stock 532068 is inactive.
+2023-09-06 09:38:07,071 - INFO - Processed: 174/4487 - Stock Code: 512344
+2023-09-06 09:38:07,531 - INFO - Processed: 175/4487 - Stock Code: 520121
+2023-09-06 09:38:07,548 - INFO - Processed: 175/4487 - Stock Code: 520121
+2023-09-06 09:38:08,248 - INFO - Processed: 176/4487 - Stock Code: 530565
+2023-09-06 09:38:08,800 - INFO - Processed: 176/4487 - Stock Code: 530565
+2023-09-06 09:38:09,204 - INFO - Processed: 177/4487 - Stock Code: 532994
+2023-09-06 09:38:09,237 - INFO - Processed: 177/4487 - Stock Code: 532994
+2023-09-06 09:38:09,995 - INFO - Processed: 178/4487 - Stock Code: 532212
+2023-09-06 09:38:10,157 - INFO - Processed: 178/4487 - Stock Code: 532212
+2023-09-06 09:38:10,601 - INFO - Processed: 179/4487 - Stock Code: 524640
+2023-09-06 09:38:10,951 - INFO - Processed: 179/4487 - Stock Code: 524640
+2023-09-06 09:38:11,084 - WARNING - Stock 511038 is inactive.
+2023-09-06 09:38:11,444 - WARNING - Stock 511038 is inactive.
+2023-09-06 09:38:11,716 - WARNING - Stock 532914 is inactive.
+2023-09-06 09:38:11,760 - WARNING - Stock 532914 is inactive.
+2023-09-06 09:38:12,220 - WARNING - Stock 530261 is inactive.
+2023-09-06 09:38:12,385 - WARNING - Stock 530261 is inactive.
+2023-09-06 09:38:12,945 - WARNING - Stock 504370 is inactive.
+2023-09-06 09:38:12,990 - WARNING - Stock 504370 is inactive.
+2023-09-06 09:38:13,531 - INFO - Processed: 180/4487 - Stock Code: 526851
+2023-09-06 09:38:13,890 - INFO - Processed: 181/4487 - Stock Code: 539151
+2023-09-06 09:38:14,470 - WARNING - Stock 509110 is inactive.
+2023-09-06 09:38:14,493 - INFO - Processed: 180/4487 - Stock Code: 526851
+2023-09-06 09:38:14,791 - INFO - Processed: 181/4487 - Stock Code: 539151
+2023-09-06 09:38:14,890 - INFO - Processed: 182/4487 - Stock Code: 532935
+2023-09-06 09:38:15,264 - WARNING - Stock 509110 is inactive.
+2023-09-06 09:38:15,445 - INFO - Processed: 183/4487 - Stock Code: 531553
+2023-09-06 09:38:15,942 - INFO - Processed: 182/4487 - Stock Code: 532935
+2023-09-06 09:38:16,168 - INFO - Processed: 184/4487 - Stock Code: 511605
+2023-09-06 09:38:16,222 - INFO - Processed: 183/4487 - Stock Code: 531553
+2023-09-06 09:38:16,757 - INFO - Processed: 184/4487 - Stock Code: 511605
+2023-09-06 09:38:16,827 - INFO - Processed: 185/4487 - Stock Code: 531381
+2023-09-06 09:38:16,912 - INFO - Processed: 185/4487 - Stock Code: 531381
+2023-09-06 09:38:17,246 - INFO - Processed: 186/4487 - Stock Code: 506194
+2023-09-06 09:38:17,358 - INFO - Processed: 186/4487 - Stock Code: 506194
+2023-09-06 09:38:17,693 - INFO - Processed: 187/4487 - Stock Code: 526125
+2023-09-06 09:38:17,714 - INFO - Processed: 187/4487 - Stock Code: 526125
+2023-09-06 09:38:18,194 - INFO - Processed: 188/4487 - Stock Code: 531017
+2023-09-06 09:38:18,264 - INFO - Processed: 188/4487 - Stock Code: 531017
+2023-09-06 09:38:18,656 - WARNING - Stock 531677 is inactive.
+2023-09-06 09:38:18,875 - WARNING - Stock 531677 is inactive.
+2023-09-06 09:38:19,253 - INFO - Processed: 189/4487 - Stock Code: 531179
+2023-09-06 09:38:19,342 - INFO - Processed: 189/4487 - Stock Code: 531179
+2023-09-06 09:38:20,174 - WARNING - Stock 538556 is inactive.
+2023-09-06 09:38:20,514 - WARNING - Stock 538556 is inactive.
+2023-09-06 09:38:20,991 - INFO - Processed: 190/4487 - Stock Code: 532397
+2023-09-06 09:38:21,097 - INFO - Processed: 190/4487 - Stock Code: 532397
+2023-09-06 09:38:21,706 - WARNING - Stock 531467 is inactive.
+2023-09-06 09:38:21,717 - WARNING - Stock 531467 is inactive.
+2023-09-06 09:38:22,249 - INFO - Processed: 191/4487 - Stock Code: 537069
+2023-09-06 09:38:22,504 - INFO - Processed: 191/4487 - Stock Code: 537069
+2023-09-06 09:38:23,032 - INFO - Processed: 192/4487 - Stock Code: 513729
+2023-09-06 09:38:23,181 - INFO - Processed: 192/4487 - Stock Code: 513729
+2023-09-06 09:38:23,425 - WARNING - Stock 531560 is inactive.
+2023-09-06 09:38:23,488 - WARNING - Stock 531560 is inactive.
+2023-09-06 09:38:24,172 - WARNING - Stock 512273 is inactive.
+2023-09-06 09:38:24,172 - WARNING - Stock 512273 is inactive.
+2023-09-06 09:38:24,866 - WARNING - Stock 521174 is inactive.
+2023-09-06 09:38:24,946 - WARNING - Stock 521174 is inactive.
+2023-09-06 09:38:25,497 - INFO - Processed: 193/4487 - Stock Code: 516064
+INFO:werkzeug: * Detected change in 'a:\\Advanced-Python-Project\\Stock-Market-Advanced-Python-Project\\app.py', reloading
+2023-09-06 09:38:25,641 - INFO - Processed: 193/4487 - Stock Code: 516064
+INFO:werkzeug: * Restarting with stat
+2023-09-06 09:38:26,060 - WARNING - Stock 533068 is inactive.
+2023-09-06 09:38:26,086 - WARNING - Stock 533068 is inactive.
