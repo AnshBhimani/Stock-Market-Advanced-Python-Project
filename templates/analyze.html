@@ -27,19 +27,10 @@
             <p>Stock Code: <span id="stockCode"></span></p>
             <p>Current Value: <span id="currentValue"></span></p>
             <p>Change: <span id="change"></span></p>
-            <p>Percentage Change: <span id="percentageChange"></span>%</p>
+            <p>Percentage Change: <span id="percentageChange"></span></p>
             <p>Market Cap: <span id="marketCap"></span></p>
             <p>Industry: <span id="industry"></span></p>
             <canvas id="currentValueChart" width="400" height="200"></canvas>
-
-            <!-- Add bar graphs for metrics here -->
-            <canvas id="cashflowChart" width="400" height="200"></canvas>
-            <canvas id="yoyResultsChart" width="400" height="200"></canvas>
-            <canvas id="PerformanceAnalysisChart" width="400" height="200"></canvas>
-            <canvas id="AnnualReportsChart" width="400" height="200"></canvas>
-            
-            <!-- Add similar canvas elements for other metrics -->
-
         </div>                
     </div>
 
@@ -87,103 +78,6 @@
                         ]
                     }
                 });
-
-                // Add bar graphs for metrics (e.g., cashflow, yoy_results)
-                new Chart(document.getElementById('cashflowChart').getContext('2d'), {
-                    type: 'bar',
-                    data: {
-                        labels: ['Selected Stock', 'Average', 'Minimum', 'Maximum'],
-                        datasets: [
-                            {
-                                label: 'Cashflow',
-                                data: [stockAnalysisData['Cashflow']['Data']['Selected Stock'], stockAnalysisData['Cashflow']['Average'], stockAnalysisData['Cashflow']['Min'], stockAnalysisData['Cashflow']['Max']],
-                                backgroundColor: ['blue', 'green', 'red', 'yellow']
-                            }
-                        ]
-                    },
-                    options: {
-                        scales: {
-                            y: {
-                                beginAtZero: true
-                            }
-                        }
-                    }
-                });
-
-                new Chart(document.getElementById('yoyResultsChart').getContext('2d'), {
-                    type: 'bar',
-                    data: {
-                        labels: ['Selected Stock', 'Average', 'Minimum', 'Maximum'],
-                        datasets: [
-                            {
-                                label: 'YOY Results',
-                                data: [stockAnalysisData['YOY Results']['Data']['Selected Stock'], stockAnalysisData['YOY Results']['Average'], stockAnalysisData['YOY Results']['Min'], stockAnalysisData['YOY Results']['Max']],
-                                backgroundColor: ['blue', 'green', 'red', 'yellow']
-                            }
-                        ]
-                    },
-                    options: {
-                        scales: {
-                            y: {
-                                beginAtZero: true
-                            }
-                        }
-                    }
-                });
-                // Add bar graphs for metrics (e.g., cashflow, yoy_results, performance_analysis, annual_reports)
-                new Chart(document.getElementById('performanceAnalysisChart').getContext('2d'), {
-                    type: 'bar',
-                    data: {
-                        labels: ['Selected Stock', 'Average', 'Minimum', 'Maximum'],
-                        datasets: [
-                            {
-                                label: 'Performance Analysis',
-                                data: [
-                                    stockAnalysisData['Performance Analysis']['Data']['Selected Stock'],
-                                    stockAnalysisData['Performance Analysis']['Average'],
-                                    stockAnalysisData['Performance Analysis']['Min'],
-                                    stockAnalysisData['Performance Analysis']['Max']
-                                ],
-                                backgroundColor: ['blue', 'green', 'red', 'yellow']
-                            }
-                        ]
-                    },
-                    options: {
-                        scales: {
-                            y: {
-                                beginAtZero: true
-                            }
-                        }
-                    }
-                });
-
-                new Chart(document.getElementById('annualReportsChart').getContext('2d'), {
-                    type: 'bar',
-                    data: {
-                        labels: ['Selected Stock', 'Average', 'Minimum', 'Maximum'],
-                        datasets: [
-                            {
-                                label: 'Annual Reports',
-                                data: [
-                                    stockAnalysisData['Annual Reports']['Data']['Selected Stock'],
-                                    stockAnalysisData['Annual Reports']['Average'],
-                                    stockAnalysisData['Annual Reports']['Min'],
-                                    stockAnalysisData['Annual Reports']['Max']
-                                ],
-                                backgroundColor: ['blue', 'green', 'red', 'yellow']
-                            }
-                        ]
-                    },
-                    options: {
-                        scales: {
-                            y: {
-                                beginAtZero: true
-                            }
-                        }
-                    }
-                });
-
-
             }
     
             // Attach event listener to analyze button
