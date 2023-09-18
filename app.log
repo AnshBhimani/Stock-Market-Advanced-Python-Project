@@ -11,3 +11,18 @@ INFO:werkzeug:127.0.0.1 - - [17/Sep/2023 11:33:42] "GET /?__debugger__=yes&cmd=r
 INFO:__main__:Markets are closed now!! Please come back between 9.15 AM and 3.30 PM on Weekdays
 INFO:werkzeug:127.0.0.1 - - [17/Sep/2023 11:33:43] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
 INFO:werkzeug:127.0.0.1 - - [17/Sep/2023 11:34:42] "GET / HTTP/1.1" 200 -
+2023-09-18 06:52:22,283 - INFO - Script started.
+2023-09-18 06:52:23,553 - WARNING - CSV file 'bse_stocks.csv' already exists.
+2023-09-18 06:52:23,553 - INFO - Markets are closed now!! Please come back between 9.15 AM and 3.30 PM on Weekdays
+2023-09-18 06:52:23,554 - INFO - Sleeping until the market opens on the next weekday at 09:15:00.
+2023-09-18 06:53:05,082 - CRITICAL - Script interrupted by user.
+2023-09-18 06:53:05,083 - INFO - Script ended.
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 112-465-507
+INFO:werkzeug:127.0.0.1 - - [18/Sep/2023 06:53:24] "GET / HTTP/1.1" 200 -
+INFO:__main__:Markets are closed now!! Please come back between 9.15 AM and 3.30 PM on Weekdays
+INFO:werkzeug:127.0.0.1 - - [18/Sep/2023 06:53:26] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
