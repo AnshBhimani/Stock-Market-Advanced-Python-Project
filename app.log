@@ -152,3 +152,22 @@ WARNING:werkzeug: * Debugger is active!
 INFO:werkzeug: * Debugger PIN: 362-967-229
 INFO:werkzeug:127.0.0.1 - - [21/Sep/2023 14:41:23] "GET / HTTP/1.1" 200 -
 INFO:__main__:Data updating completed.
+INFO:__main__:Data updating completed.
+INFO:__main__:Data updating completed.
+INFO:__main__:Data updating completed.
+INFO:__main__:Data updating completed.
+INFO:__main__:Data updating completed.
+INFO:__main__:Data updating completed.
+INFO:__main__:Data updating completed.
+INFO:werkzeug:127.0.0.1 - - [21/Sep/2023 14:42:44] "GET / HTTP/1.1" 200 -
+INFO:__main__:Data updating completed.
+INFO:werkzeug:127.0.0.1 - - [21/Sep/2023 14:42:46] "GET /analyze HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Sep/2023 14:42:46] "[33mGET /analyze/ HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [21/Sep/2023 14:42:47] "[33mGET /analyze/ HTTP/1.1[0m" 404 -
+INFO:__main__:Data updating completed.
+INFO:werkzeug:127.0.0.1 - - [21/Sep/2023 14:42:59] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Sep/2023 14:43:00] "GET /analyze HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Sep/2023 14:43:00] "[33mGET /analyze/ HTTP/1.1[0m" 404 -
+INFO:__main__:Data updating completed.
+INFO:__main__:Data updating completed.
+INFO:__main__:Data updating completed.
