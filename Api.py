@@ -67,10 +67,10 @@ try:
         ist_end_time = dt_time(15, 30)   # 3.30 PM IST
 
         if (
-            ist_start_time <= current_time <= ist_end_time
-            and current_day in days_on
+            (ist_start_time <= current_time <= ist_end_time
+            and current_day in days_on) or True
         ):
-            with open(csv_filename, mode='r', newline='', encoding='utf-8') as csv_file:
+            with open(csv_filename, mode='a', newline='', encoding='utf-8') as csv_file:
                 rows = list(csv.DictReader(csv_file))
 
             updated_rows = []

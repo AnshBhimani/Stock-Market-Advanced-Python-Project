@@ -38,8 +38,8 @@ formatter = colorlog.ColoredFormatter(
     '%(log_color)s%(asctime)s - %(levelname)s - %(message)s',
     datefmt='%Y-%m-%d %H:%M:%S',  # Add timestamp format
     log_colors={
-        'DEBUG': 'reset',
-        'INFO': 'reset',
+        'DEBUG': 'blue',
+        'INFO': 'green',
         'WARNING': 'yellow',
         'ERROR': 'red',
         'CRITICAL': 'bold_red',
@@ -84,10 +84,7 @@ class StockUpdater:
                 ist_start_time = dt_time(9, 15)  # 9.15 AM IST
                 ist_end_time = dt_time(15, 30)   # 3.30 PM IST
 
-                if (
-                    ist_start_time <= current_time <= ist_end_time
-                    and current_day in days_on):
-                    
+                if (ist_start_time <= current_time <= ist_end_time and current_day in days_on):
                     self.markets_open = True
                     csv_filename = 'bse_stocks.csv'
                     if not os.path.exists(csv_filename):
