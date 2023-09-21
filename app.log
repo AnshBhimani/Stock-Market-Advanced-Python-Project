@@ -26,3 +26,13 @@ INFO:werkzeug: * Debugger PIN: 112-465-507
 INFO:werkzeug:127.0.0.1 - - [18/Sep/2023 06:53:24] "GET / HTTP/1.1" 200 -
 INFO:__main__:Markets are closed now!! Please come back between 9.15 AM and 3.30 PM on Weekdays
 INFO:werkzeug:127.0.0.1 - - [18/Sep/2023 06:53:26] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 362-967-229
+INFO:werkzeug:127.0.0.1 - - [21/Sep/2023 08:56:33] "GET / HTTP/1.1" 200 -
+INFO:__main__:Markets are closed now!! Please come back between 9.15 AM and 3.30 PM on Weekdays
+INFO:werkzeug:127.0.0.1 - - [21/Sep/2023 08:56:35] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Sep/2023 08:56:41] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
