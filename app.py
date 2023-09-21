@@ -176,14 +176,7 @@ def analyze_stock(stock_name):
 
 if __name__ == "__main__":
     try:
-        # Create the CSV file if not found
-        csv_filename = 'bse_stocks.csv'
-        if not os.path.exists(csv_filename):
-            with open(csv_filename, mode='w', newline='', encoding='utf-8') as csv_file:
-                fieldnames = ['Stock Code', 'Stock Name', 'Current Value', 'Change', 'Percentage Change', 'Market Cap', 'Industry', 'Day High', 'Day Low', 'Month High/Low']
-                writer = csv.DictWriter(csv_file, fieldnames=fieldnames)
-                writer.writeheader()
-
+        subprocess.Popen(['python', 'Api.py'])
         app.run(debug=True, port=8000)
 
         # Open the browser automatically

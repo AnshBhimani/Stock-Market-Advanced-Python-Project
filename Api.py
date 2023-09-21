@@ -71,7 +71,7 @@ try:
             and current_day in days_on) or True
         ):
             with open(csv_filename, mode='a', newline='', encoding='utf-8') as csv_file:
-                rows = list(csv.DictReader(csv_file))
+                rows = list(csv.DictWriter(csv_file))
 
             updated_rows = []
 
