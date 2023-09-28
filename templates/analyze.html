@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Stock Analysis</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Stock Updater</a>
+    </nav>
+    <div class="container mt-5">
+        <h1>Stock Analysis</h1>
+        <p>Visualize stock data and trends.</p>
+        
+        <form id="stockForm" class="mb-3">
+            <select id="stockSelect" class="form-control">
+                {% for stock_name in stock_names %}
+                    <option value="{{ stock_name }}">{{ stock_name }}</option>
+                {% endfor %}
+            </select>
+            <button id="analyzeButton" class="btn btn-primary" type="button">Analyze Selected Stock</button>
+        </form>
+        
+        <div class="col-md-12">
+            <h2 id="analysisTitle">Analysis for <span id="stockName"></span></h2>
+            <p>Stock Code: <span id="stockCode"></span></p>
+            <p>Current Value: <span id="currentValue"></span></p>
+            <p>Change: <span id="change"></span></p>
+            <p>Percentage Change: <span id="percentageChange"></span></p>
+            <p>Market Cap: <span id="marketCap"></span></p>
+            <p>Industry: <span id="industry"></span></p>
+            <canvas id="currentValueChart" width="400" height="200"></canvas>
+        </div>                
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const stockSelect = document.getElementById('stockSelect');
+            const analyzeButton = document.getElementById('analyzeButton');
+            const analysisTitle = document.getElementById('analysisTitle');
+            const stockCode = document.getElementById('stockCode');
+            const currentValue = document.getElementById('currentValue');
+            const change = document.getElementById('change');
+            const percentageChange = document.getElementById('percentageChange');
+            const marketCap = document.getElementById('marketCap');
+            const industry = document.getElementById('industry');
+            
+            // Function to fetch and update charts
+            async function updateCharts(stockName) {
+                const stockAnalysisResponse = await fetch(`/analyze/${encodeURIComponent(stockName)}`, {
+                    headers: {
+                        'Accept': 'application/json'
+                    }
+                });
+                const stockAnalysisData = await stockAnalysisResponse.json();
+    
+                analysisTitle.textContent = `Analysis for ${stockAnalysisData['Stock Name']}`;
+                stockCode.textContent = stockAnalysisData['Stock Code'];
+                currentValue.textContent = stockAnalysisData['Current Value'];
+                change.textContent = stockAnalysisData['Change'];
+                percentageChange.textContent = stockAnalysisData['Percentage Change'];
+                marketCap.textContent = stockAnalysisData['Market Cap'];
+                industry.textContent = stockAnalysisData['Industry'];
+
+                // Create current value chart
+                new Chart(document.getElementById('currentValueChart').getContext('2d'), {
+                    type: 'line',
+                    data: {
+                        labels: stockAnalysisData['Dates'],  // Adjust this field based on your JSON structure
+                        datasets: [
+                            {
+                                label: 'Current Value',
+                                data: stockAnalysisData['Current Values'],  // Adjust this field based on your JSON structure
+                                borderColor: 'green',
+                                fill: false
+                            }
+                        ]
+                    }
+                });
+            }
+    
+            // Attach event listener to analyze button
+            analyzeButton.addEventListener('click', async () => {
+                const selectedStock = stockSelect.value;
+                await updateCharts(selectedStock);
+            });
+    
+            // Call updateCharts with the initial value when the page loads
+            updateCharts(stockSelect.value);
+        });
+    </script>
+    
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
