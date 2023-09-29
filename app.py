@@ -5,8 +5,11 @@ from flask import Flask, render_template, request, jsonify
 import logging
 import csv
 import webbrowser
+import time
+from datetime import datetime, time as dt_time
 import subprocess
 from bsedata.bse import BSE
+from datetime import datetime  # Add this import for timestamp
 
 # Check and install the dependencies 
 # List of dependencies to check
@@ -58,7 +61,7 @@ def index():
 @app.route('/analyze')
 def analyze_dashboard():
     stock_names = []
-    with open('bse_stocks.csv', 'r') as csv_file:
+    with open('stock_list.csv', 'r') as csv_file:
         csv_reader = csv.DictReader(csv_file)
         for row in csv_reader:
             stock_names.append(row['Stock Name'])
@@ -70,12 +73,11 @@ def get_stock_code(stock_name):
         for stock_code, name in bse.getScripCodes().items():
             if name.lower() == stock_name.lower():
                 return stock_code
-        return None  # Stock name not found
+        return "Stock Not Found"  # Stock name not found
     except Exception as e:
         print(f"An error occurred: {e}")
         return None
 
-# Define a route to handle stock analysis
 @app.route('/analyze/<stock_name>')
 def analyze_stock(stock_name):
     stock_code = get_stock_code(stock_name)
@@ -83,11 +85,12 @@ def analyze_stock(stock_name):
         return "Stock code not found."
 
     csv_filename = f"{stock_code}.csv"
-    if not os.path.exists(csv_filename):
+    csv_path = f"stock_data/{csv_filename}"
+    if not os.path.exists(csv_path):
         return "CSV file not found."
 
     try:
-        with open(csv_filename, mode='r', newline='', encoding='utf-8') as csv_file:
+        with open(csv_path, mode='r', newline='', encoding='utf-8') as csv_file:
             csv_reader = csv.DictReader(csv_file)
             last_row = None  # Initialize a variable to store the last row
 
@@ -110,16 +113,29 @@ def analyze_stock(stock_name):
         return "CSV file not found."
     
 if __name__ == "__main__":
-    try:
-        subprocess.Popen(['python', 'Api.py'])
-        app.run(debug=True, port=8000)
+    while True:
+        try:
+            current_time = datetime.now().time()
+            ist_start_time = dt_time(9, 15)  # 9.15 AM IST
+            ist_end_time = dt_time(15, 30)   # 3.30 PM IST
+            
+            # if ist_start_time <= current_time <= ist_end_time:
+            if True:
+                logger.info("Markets are opened!!")
+                subprocess.Popen(['python', 'api.py'])
+            
+            else:
+                logger.info("Markets are closed right now!!")
+                logger.info("Come back between {ist_start_time} and {ist_end_time}")
+            
+            app.run(debug=True, host = '0.0.0.0', port=8000)
 
-        # Open the browser automatically
-        url = f"http://127.0.0.1:8000"
-        webbrowser.open(url)
-        print("App running on url: " + url)
+            # Open the browser automatically
+            url = f"http://127.0.0.1:8000"
+            webbrowser.open(url)
+            print("App running on url: " + url)
 
-    except KeyboardInterrupt:
-        logger.critical("Script interrupted by user.")
-    except Exception as e:
-        logger.error("An error occurred:", exc_info=True)
+        except KeyboardInterrupt:
+            logger.critical("Script interrupted by user.")
+        except Exception as e:
+            logger.error("From Main : An error occurred:", exc_info=True)

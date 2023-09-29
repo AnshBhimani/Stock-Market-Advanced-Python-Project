@@ -25,11 +25,10 @@
         <div class="col-md-12">
             <h2 id="analysisTitle">Analysis for <span id="stockName"></span></h2>
             <p>Stock Code: <span id="stockCode"></span></p>
-            <p>Current Value: <span id="currentValue"></span></p>
-            <p>Change: <span id="change"></span></p>
-            <p>Percentage Change: <span id="percentageChange"></span></p>
-            <p>Market Cap: <span id="marketCap"></span></p>
-            <p>Industry: <span id="industry"></span></p>
+            <p>Time: <span id="time"></span></p>
+            <p>Current Price: <span id="currentPrice"></span></p>
+            <p>Day High: <span id="dayHigh"></span></p>
+            <p>Day Low: <span id="dayLow"></span></p>
             <canvas id="currentValueChart" width="400" height="200"></canvas>
         </div>                
     </div>
@@ -40,12 +39,12 @@
             const analyzeButton = document.getElementById('analyzeButton');
             const analysisTitle = document.getElementById('analysisTitle');
             const stockCode = document.getElementById('stockCode');
-            const currentValue = document.getElementById('currentValue');
-            const change = document.getElementById('change');
-            const percentageChange = document.getElementById('percentageChange');
-            const marketCap = document.getElementById('marketCap');
-            const industry = document.getElementById('industry');
-            
+            const time = document.getElementById('time');  // Added for timestamp
+            const currentPrice = document.getElementById('currentPrice');
+            const dayHigh = document.getElementById('dayHigh');
+            const dayLow = document.getElementById('dayLow');
+            const chartCanvas = document.getElementById('currentValueChart');
+
             // Function to fetch and update charts
             async function updateCharts(stockName) {
                 const stockAnalysisResponse = await fetch(`/analyze/${encodeURIComponent(stockName)}`, {
@@ -57,26 +56,35 @@
     
                 analysisTitle.textContent = `Analysis for ${stockAnalysisData['Stock Name']}`;
                 stockCode.textContent = stockAnalysisData['Stock Code'];
-                currentValue.textContent = stockAnalysisData['Current Value'];
-                change.textContent = stockAnalysisData['Change'];
-                percentageChange.textContent = stockAnalysisData['Percentage Change'];
-                marketCap.textContent = stockAnalysisData['Market Cap'];
-                industry.textContent = stockAnalysisData['Industry'];
+                time.textContent = stockAnalysisData['Time'];  // Display the timestamp
+                currentPrice.textContent = stockAnalysisData['Current Price'];
+                dayHigh.textContent = stockAnalysisData['Day High'];
+                dayLow.textContent = stockAnalysisData['Day Low'];
 
-                // Create current value chart
-                new Chart(document.getElementById('currentValueChart').getContext('2d'), {
+                // Create current value chart (assuming you have corresponding data)
+                const chartData = {
+                    labels: stockAnalysisData['Dates'],  // Adjust this field based on your JSON structure
+                    datasets: [
+                        {
+                            label: 'Current Value',
+                            data: stockAnalysisData['Current Values'],  // Adjust this field based on your JSON structure
+                            borderColor: 'green',
+                            fill: false
+                        }
+                    ]
+                };
+
+                const chartOptions = {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                };
+
+                // Create the line chart
+                const ctx = chartCanvas.getContext('2d');
+                new Chart(ctx, {
                     type: 'line',
-                    data: {
-                        labels: stockAnalysisData['Dates'],  // Adjust this field based on your JSON structure
-                        datasets: [
-                            {
-                                label: 'Current Value',
-                                data: stockAnalysisData['Current Values'],  // Adjust this field based on your JSON structure
-                                borderColor: 'green',
-                                fill: false
-                            }
-                        ]
-                    }
+                    data: chartData,
+                    options: chartOptions
                 });
             }
     
