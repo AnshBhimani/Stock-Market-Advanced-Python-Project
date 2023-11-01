@@ -18,9 +18,8 @@ import yaml
 from yaml.loader import SafeLoader
 import bcrypt
 import smtplib
-from email.mime.text import MIMEText
-from email.mime.multipart import MIMEMultipart
-
+from string import Template
+from smtp import send_email,read_template
 
 def stock_analysis():
     # st.set_page_config(layout="wide", initial_sidebar_state="expanded")
@@ -355,16 +354,9 @@ if not(st.session_state["authentication_status"]):
             username_of_forgotten_password, email_of_forgotten_password, new_random_password = authenticator.forgot_password('Forgot password')
             if username_of_forgotten_password:
                 st.success('New password to be sent securely')
+                subject_line = "Temporary Password!!"
                 # Random password should be transferred to user securely
-            else:
-                st.error('Username not found')
-        except Exception as e:
-            st.error(e)
-        try:
-            username_of_forgotten_password, email_of_forgotten_password, new_random_password = authenticator.forgot_password('Forgot password')
-            if username_of_forgotten_password:
-                st.success('New password to be sent securely')
-                # Random password should be transferred to user securely
+                send_email(email_of_forgotten_password, username_of_forgotten_password, subject_line, new_random_password)
             else:
                 st.error('Username not found')
         except Exception as e:
