@@ -1,0 +1,21 @@
+cookie:
+  expiry_days: 5
+  key: some_signature_key
+  name: some_cookie_name
+credentials:
+  usernames:
+    malay:
+      email: malaysanghvi2004@gmail.com
+      name: malay
+      password: $2b$12$6Y8iPWGr3LWrXqTQcP3LduCuSLQKHxvfVQYJ4oSaK7dDZrbrDPyUC
+    vish:
+      email: vishesh@gmail.com
+      name: Vishesh
+      password: $2b$12$WlIy.O0.pA360zTNtN6j4e8jiBilpBLaViGgulCppjVqoqJWtXxKu
+    yash:
+      email: yash@gmail.com
+      name: Yash
+      password: $2b$12$h1gsi8BZPkMq1fLz.AOS8e2JkTq9h047FMvlYRVE5gAY2Z7CeINqu
+preauthorized:
+  emails:
+  - melsby@gmail.com
